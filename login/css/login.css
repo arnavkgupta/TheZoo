@@ -16,13 +16,13 @@ body {
 }
 
 .panda img {
-  width: 50%;
+  width: 30%;
   height: 300px;
   background: rgba(253,255,255,1);
   opacity: 1;
   position: absolute;
   top: 350px;
-  left: 150px;
+  left: 300px;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
   border-bottom-left-radius: 30px;
@@ -30,19 +30,14 @@ body {
   overflow: hidden;
 }
 
-
 .v30_115 {
   width: 100%;
   height: 982px;
-  background: rgba(253,255,255,1);
+  background: rgba(71, 202, 0, 0.113);
   opacity: 1;
   position: absolute;
   top: 0px;
   left: 0px;
-  border-top-left-radius: 30px;
-  border-top-right-radius: 30px;
-  border-bottom-left-radius: 30px;
-  border-bottom-right-radius: 30px;
   overflow: hidden;
 }
 
@@ -130,11 +125,12 @@ body {
   opacity: 1;
   position: absolute;
   top: 0px;
-  left: 0px;
+  left: 20px;
+  right: 10px;
   border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
+  border-top-right-radius: 40px;
   border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
+  border-bottom-right-radius: 40px;
   box-shadow: 0px 2px 18px rgba(0, 0, 0, 0.10000000149011612);
   overflow: hidden;
 }
@@ -5131,10 +5127,10 @@ body {
   color: rgba(124,174,76,1);
   position: absolute;
   top: 258px;
-  left: 178px;
+  left: 220px;
   font-family: Rubik;
-  font-weight: Black Italic;
-  font-size: 36px;
+  font-weight: bold;
+  font-size: 40px;
   opacity: 1;
   text-align: left;
 }
