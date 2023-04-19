@@ -43,6 +43,16 @@ body {
   opacity: 1;
   text-align: left;
 }
+
+.v98_1945 img {
+  width: 207px;
+  position: absolute;
+  top: 46px;
+  left: 55px;
+  font-size: 48px;
+  opacity: 1;
+  align-items: left;
+}
 .v98_1959 {
   width: 68px;
   height: 67px;
@@ -199,6 +209,7 @@ body {
   width: 178px;
   height: 178px;
   background: url("../images/v98_2290.png");
+  background-size: 180px;
   opacity: 1;
   position: absolute;
   top: 263px;
@@ -209,6 +220,7 @@ body {
   width: 179px;
   height: 179px;
   background: url("../images/v98_2291.png");
+  background-size: 180px;
   opacity: 1;
   position: absolute;
   top: 439px;
@@ -219,6 +231,7 @@ body {
   width: 178px;
   height: 179px;
   background: url("../images/v98_2292.png");
+  background-size: 180px;
   opacity: 1;
   position: absolute;
   top: 508px;
@@ -229,6 +242,7 @@ body {
   width: 179px;
   height: 179px;
   background: url("../images/v98_2293.png");
+  background-size: 180px;
   opacity: 1;
   position: absolute;
   top: 640px;
