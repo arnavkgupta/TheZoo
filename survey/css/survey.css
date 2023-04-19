@@ -7,15 +7,11 @@ body {
 .v57_48 {
   width: 100%;
   height: 982px;
-  background: rgba(253,255,255,1);
+  background-image: url(../images/new.png);
   opacity: 1;
   position: absolute;
   top: 0px;
   left: 0px;
-  border-top-left-radius: 30px;
-  border-top-right-radius: 30px;
-  border-bottom-left-radius: 30px;
-  border-bottom-right-radius: 30px;
   overflow: hidden;
 }
 .v57_49 {
@@ -948,15 +944,6 @@ body {
   border-bottom-left-radius: 21px;
   border-bottom-right-radius: 21px;
   overflow: hidden;
-}
-.v57_136 {
-  width: 17px;
-  height: 17px;
-  background: rgba(0,0,0,1);
-  opacity: 1;
-  position: absolute;
-  top: 13px;
-  left: 17px;
 }
 .v57_134 {
   width: 68px;
