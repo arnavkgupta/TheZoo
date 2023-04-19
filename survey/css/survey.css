@@ -85,7 +85,7 @@ body {
   overflow: hidden;
 }
 .v57_101 {
-  width: 100%;
+  width: 80%;
   height: 611px;
   background: rgba(255,255,255,1);
   opacity: 1;
@@ -137,7 +137,7 @@ body {
   text-align: left;
 }
 .v57_130 {
-  width: 199px;
+  width: 135px;
   height: 50px;
   background: url("../images/v57_130.png");
   background-repeat: no-repeat;
@@ -163,7 +163,7 @@ body {
   color: rgba(255,255,255,1);
   position: absolute;
   top: 12px;
-  left: 37px;
+  left: 25px;
   font-family: Rubik;
   font-weight: SemiBold;
   font-size: 20px;
