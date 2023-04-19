@@ -157,6 +157,7 @@ body {
   font-size: 20px;
   opacity: 1;
   text-align: left;
+  overflow-x: scroll;
 }
 .v343_6932 {
   width: 100%;
