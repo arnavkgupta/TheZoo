@@ -4,7 +4,7 @@ var aboutButton = document.getElementById("aboutButton");
 // Add click event listener to the button
 aboutButton.addEventListener("click", function() {
   // Navigate to the desired page
-  window.location = 'about_us.html';
+  window.location = '../about_us/about_us.html';
 });
 
 

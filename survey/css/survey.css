@@ -275,6 +275,22 @@ body {
   border-bottom-right-radius: 21px;
   overflow: hidden;
 }
+
+#drawingButton {
+  display: block;
+  width: 152px;
+  height: 43px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: rgba(124,174,76,0.28999999165534973);
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
+
 .v57_149 {
   width: 105px;
   height: 19px;
@@ -379,6 +395,21 @@ body {
   border-bottom-right-radius: 21px;
   overflow: hidden;
 }
+
+#musicButton {
+  display: block;
+  width: 152px;
+  height: 43px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: rgba(124,174,76,0.28999999165534973);
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
 .v58_159 {
   width: 86px;
   height: 19px;
@@ -441,6 +472,20 @@ body {
   border-bottom-right-radius: 21px;
   overflow: hidden;
 }
+#sportsButton {
+  display: block;
+  width: 152px;
+  height: 43px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: rgba(124,174,76,0.28999999165534973);
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
 .v58_177 {
   width: 91px;
   height: 19px;
