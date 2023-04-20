@@ -36,3 +36,13 @@ resultsButton.addEventListener("click", function() {
   // Navigate to the desired page
   window.location.href = "../guide/guide.html";
 });
+
+
+// Get the button element
+var continueButton = document.getElementById("continueButton");
+
+// Add click event listener to the button
+continueButton.addEventListener("click", function() {
+  // Navigate to the desired page
+  window.location.href = "../guide/guide.html";
+});
