@@ -22,6 +22,10 @@ body {
   background-color: rgba(109,120,99,1);
 }
 
+.v57_109 #drawingButton {
+  color: black;
+}
+
 #homeButton {
   display: block;
   margin: 0 auto;
@@ -216,7 +220,7 @@ body {
 }
 .v57_127 {
   width: 199px;
-  height: 50px;
+  height: 90px;
   background: rgba(0,0,0,1);
   opacity: 1;
   position: absolute;
@@ -258,7 +262,7 @@ body {
   opacity: 1;
   position: absolute;
   top: 375px;
-  left: 274px;
+  left: 200px;
   overflow: hidden;
 }
 .v57_133 {
@@ -290,6 +294,20 @@ body {
 }
 
 #drawingButton {
+  display: block;
+  width: 152px;
+  height: 43px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: rgba(124,174,76,0.28999999165534973);
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
+#bakingButton {
   display: block;
   width: 152px;
   height: 43px;
@@ -351,7 +369,7 @@ body {
   border-top-right-radius: 21px;
   border-bottom-left-radius: 21px;
   border-bottom-right-radius: 21px;
-  overflow: hidden;
+  overflow:hidden;
 }
 .v57_118 {
   width: 152px;
@@ -359,14 +377,15 @@ body {
   background: rgba(124,174,76,0.28999999165534973);
   opacity: 1;
   position: absolute;
-  top: 166px;
-  left: 203px;
+  top: 0px;
+  left: 590px;
   border-top-left-radius: 21px;
   border-top-right-radius: 21px;
   border-bottom-left-radius: 21px;
   border-bottom-right-radius: 21px;
   overflow: hidden;
 }
+
 .v57_119 {
   width: 152px;
   height: 43px;
@@ -381,6 +400,7 @@ body {
   border-bottom-right-radius: 21px;
   overflow: hidden;
 }
+
 .v58_158 {
   width: 152px;
   height: 43px;
@@ -390,8 +410,8 @@ body {
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 0px;
-  left: 406px;
+  top: 700px;
+  left: 1100px;
   overflow: hidden;
 }
 .v57_110 {
@@ -421,6 +441,10 @@ body {
   cursor: pointer;
   border: none;
   border-radius: 4px;
+}
+
+.v58_191 #bakingButton {
+  color: black;
 }
 
 .v58_159 {
@@ -471,6 +495,9 @@ body {
   left: 0px;
   overflow: hidden;
 }
+
+
+
 .v57_115 {
   width: 152px;
   height: 43px;
@@ -485,6 +512,23 @@ body {
   border-bottom-right-radius: 21px;
   overflow: hidden;
 }
+
+.eating {
+  width: 152px;
+  height: 43px;
+  background: rgba(124,174,76,0.28999999165534973);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 21px;
+  border-top-right-radius: 21px;
+  border-bottom-left-radius: 21px;
+  border-bottom-right-radius: 21px;
+  overflow: hidden;
+}
+
+
 #sportsButton {
   display: block;
   width: 152px;
@@ -524,6 +568,26 @@ body {
   opacity: 1;
   text-align: left;
 }
+
+.v57_115 #sportsButton {
+  color: black;
+}
+
+.v57_116 #writingButton {
+  color: black;
+}
+
+.v57_117 #eatingButton {
+  color: black;
+}
+
+.v58_183 #eatingButton {
+  color: black;
+}
+.v57_118 #moviesButton {
+  color: black;
+}
+
 .v58_179 {
   width: 17px;
   height: 17px;
@@ -549,6 +613,34 @@ body {
   overflow: hidden;
 }
 #writingButton {
+  display: block;
+  width: 152px;
+  height: 43px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: rgba(124,174,76,0.28999999165534973);
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
+#moviesButton {
+  display: block;
+  width: 152px;
+  height: 43px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: rgba(124,174,76,0.28999999165534973);
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
+#eatingButton {
   display: block;
   width: 152px;
   height: 43px;
@@ -597,16 +689,17 @@ body {
   border-radius: 50%;
 }
 .v58_183 {
-  width: 91px;
-  height: 19px;
-  background: url("../images/v58_183.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
+  width: 152px;
+  height: 43px;
+  background: rgba(124,174,76,0.28999999165534973);
   opacity: 1;
   position: absolute;
-  top: 12px;
-  left: 438px;
+  top: 0px;
+  left: 400px;
+  border-top-left-radius: 21px;
+  border-top-right-radius: 21px;
+  border-bottom-left-radius: 21px;
+  border-bottom-right-radius: 21px;
   overflow: hidden;
 }
 .v58_184 {
@@ -622,27 +715,33 @@ body {
   text-align: left;
 }
 .v58_185 {
-  width: 17px;
-  height: 17px;
-  background: url("../images/v58_185.png");
+  border-radius: 50%;
+  width: 152px;
+  height: 43px;
+  background: rgba(124,174,76,0.28999999165534973);
   opacity: 1;
   position: absolute;
-  top: 1px;
+  top: 166px;
   left: 0px;
-  border-radius: 50%;
+  border-top-left-radius: 21px;
+  border-top-right-radius: 21px;
+  border-bottom-left-radius: 21px;
+  border-bottom-right-radius: 21px;
+  overflow:hidden;
 }
 .v58_186 {
-  width: 96px;
-  height: 19px;
-  background: url("../images/v58_186.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
+  width: 152px;
+  height: 43px;
+  background: rgba(124,174,76,0.28999999165534973);
   opacity: 1;
   position: absolute;
-  top: 12px;
-  left: 640px;
-  overflow: hidden;
+  top: 400px;
+  left: 0px;
+  border-top-left-radius: 21px;
+  border-top-right-radius: 21px;
+  border-bottom-left-radius: 21px;
+  border-bottom-right-radius: 21px;
+  overflow:hidden;
 }
 .v58_187 {
   width: 62px;
@@ -665,19 +764,34 @@ body {
   top: 1px;
   left: 0px;
   border-radius: 50%;
-}
-.v58_189 {
-  width: 93px;
-  height: 19px;
-  background: url("../images/v58_189.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
+
+  width: 152px;
+  height: 43px;
+  background: rgba(124,174,76,0.28999999165534973);
   opacity: 1;
   position: absolute;
-  top: 12px;
-  left: 842px;
+  top: 1px;
+  left: 0px;
+  border-top-left-radius: 21px;
+  border-top-right-radius: 21px;
+  border-bottom-left-radius: 21px;
+  border-bottom-right-radius: 21px;
   overflow: hidden;
+  
+}
+.v58_189 {
+  width: 152px;
+  height: 43px;
+  background: rgba(124,174,76,0.28999999165534973);
+  opacity: 1;
+  position: absolute;
+  top: 1px;
+  left: 8px;
+  border-top-left-radius: 21px;
+  border-top-right-radius: 21px;
+  border-bottom-left-radius: 21px;
+  border-bottom-right-radius: 21px;
+  overflow:hidden;
 }
 .v58_190 {
   width: 59px;
@@ -692,14 +806,18 @@ body {
   text-align: left;
 }
 .v58_191 {
-  width: 17px;
-  height: 17px;
-  background: url("../images/v58_191.png");
+  width: 152px;
+  height: 43px;
+  background: rgba(124,174,76,0.28999999165534973);
   opacity: 1;
   position: absolute;
   top: 1px;
-  left: 0px;
-  border-radius: 50%;
+  left: 783px;
+  border-top-left-radius: 21px;
+  border-top-right-radius: 21px;
+  border-bottom-left-radius: 21px;
+  border-bottom-right-radius: 21px;
+  overflow: hidden;
 }
 .v57_132 {
   width: 767px;
@@ -813,7 +931,7 @@ body {
   border-radius: 50%;
 }
 .v57_113 {
-  width: 162px;
+  width: 152px;
   height: 43px;
   background: rgba(124,174,76,0.28999999165534973);
   opacity: 1;
@@ -960,7 +1078,7 @@ body {
   border-radius: 50%;
 }
 .v57_122 {
-  width: 157px;
+  width: 152px;
   height: 43px;
   background: rgba(124,174,76,0.28999999165534973);
   opacity: 1;
@@ -1009,7 +1127,7 @@ body {
   border-radius: 50%;
 }
 .v57_123 {
-  width: 171px;
+  width: 152px;
   height: 43px;
   background: rgba(124,174,76,0.28999999165534973);
   opacity: 1;
@@ -1023,7 +1141,7 @@ body {
   overflow: hidden;
 }
 .v57_124 {
-  width: 159px;
+  width: 152px;
   height: 43px;
   background: rgba(124,174,76,0.28999999165534973);
   opacity: 1;
@@ -1036,6 +1154,26 @@ body {
   border-bottom-right-radius: 21px;
   overflow: hidden;
 }
+
+#sleepingButton {
+  overflow: hidden;
+  display: block;
+  width: 152px;
+  height: 43px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: rgba(124,174,76,0.28999999165534973);
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
+.v57_124 #sleepingButton {
+  color: black;
+}
+
 .v58_202 {
   width: 90px;
   color: rgba(0,0,0,1);
@@ -1067,18 +1205,225 @@ body {
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 375px;
-  left: 274px;
-  overflow: hidden;
+  top: 0px;
+  left: 0px;
+  overflow: visible;
 }
 .v57_105 {
   width: 152px;
   height: 43px;
-  background: rgba(124,174,76,1);
+  background: rgba(124,174,76,0.28999999165534973);
   opacity: 1;
   position: absolute;
   top: 0px;
   left: 0px;
+  border-top-left-radius: 21px;
+  border-top-right-radius: 21px;
+  border-bottom-left-radius: 21px;
+  border-bottom-right-radius: 21px;
+  overflow: hidden;
+}
+
+.v57_105 #makeupButton{
+  color:black;
+}
+
+#makeupButton{
+  overflow: hidden;
+  display: block;
+  width: 152px;
+  height: 43px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: rgba(124,174,76,0.28999999165534973);
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
+#bikingButton {
+  overflow: hidden;
+  display: block;
+  width: 152px;
+  height: 43px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: rgba(124,174,76,0.28999999165534973);
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+.v57_107 #bikingButton {
+  color: black;
+}
+
+#fashionButton {
+  overflow: hidden;
+  display: block;
+  width: 152px;
+  height: 43px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: rgba(124,174,76,0.28999999165534973);
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
+.v57_108 #fashionButton {
+  color: black;
+}
+
+#liftingButton {
+  overflow: hidden;
+  display: block;
+  width: 152px;
+  height: 43px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: rgba(124,174,76,0.28999999165534973);
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+.v57_111 #liftingButton {
+  color:black;
+}
+
+#runningButton {
+  overflow: hidden;
+  display: block;
+  width: 152px;
+  height: 43px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: rgba(124,174,76,0.28999999165534973);
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+.v57_112 #runningButton {
+  color: black;
+}
+
+#basketballButton {
+  display: block;
+  width: 152px;
+  height: 43px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: rgba(124,174,76,0.28999999165534973);
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+.v57_113 #basketballButton {
+  color: black;
+}
+
+#gamingButton {
+  display: block;
+  width: 152px;
+  height: 43px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: rgba(124,174,76,0.28999999165534973);
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+.v57_114 #gamingButton {
+  color: black;
+}
+
+#skiingButton {
+  display: block;
+  width: 152px;
+  height: 43px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: rgba(124,174,76,0.28999999165534973);
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+.v57_121 #skiingButton {
+  color: black;
+}
+
+#cookingButton {
+  display: block;
+  width: 152px;
+  height: 43px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: rgba(124,174,76,0.28999999165534973);
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+.v57_122 #cookingButton {
+  color:black;
+}
+
+#gardeningButton {
+  display: block;
+  width: 152px;
+  height: 43px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: rgba(124,174,76,0.28999999165534973);
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+.v57_123 #gardeningButton {
+  color:black;
+}
+
+
+.v57_136 {
+  width: 152px;
+  height: 43px;
+  background: rgba(124,174,76,0.28999999165534973);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 21px;
+  border-top-right-radius: 21px;
+  border-bottom-left-radius: 21px;
+  border-bottom-right-radius: 21px;
+  overflow: hidden;
+
+
+  width: 152px;
+  height: 43px;
+  background: rgba(124,174,76,0.28999999165534973);
+  opacity: 1;
+  position: absolute;
+  top: 166px;
+  left: 600px;
   border-top-left-radius: 21px;
   border-top-right-radius: 21px;
   border-bottom-left-radius: 21px;
