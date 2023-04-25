@@ -7,6 +7,24 @@ aboutButton.addEventListener("click", function() {
   window.location = '../about_us/about_us.html';
 });
 
+// Get the button element
+var learnMore = document.getElementById("learnMore");
+
+// Add click event listener to the button
+learnMore.addEventListener("click", function() {
+  // Navigate to the desired page
+  window.location.href = "../learn_more/learn_more.html";
+});
+
+// Get the button element
+var interestSurvey = document.getElementById("interestSurvey");
+
+// Add click event listener to the button
+interestSurvey.addEventListener("click", function() {
+  // Navigate to the desired page
+  window.location.href = "../survey/survey.html";
+});
+
 
 // Get the button element
 var homeButton = document.getElementById("homeButton");
@@ -35,4 +53,14 @@ var resultsButton = document.getElementById("resultsButton");
 resultsButton.addEventListener("click", function() {
   // Navigate to the desired page
   window.location.href = "../guide/guide.html";
+});
+
+
+// Get the button element
+var learnMoreButton = document.getElementById("learnMoreButton");
+
+// Add click event listener to the button
+learnMoreButton.addEventListener("click", function() {
+  // Navigate to the desired page
+  window.location.href = "../learn_more/learn_more.html";
 });
