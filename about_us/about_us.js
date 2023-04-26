@@ -1,4 +1,14 @@
 // Get the button element
+var learnMoreButton = document.getElementById("learnMoreButton");
+
+// Add click event listener to the button
+learnMoreButton.addEventListener("click", function() {
+  // Navigate to the desired page
+  window.location.href = "../learn_more/learn_more.html";
+});
+
+
+// Get the button element
 var aboutButton = document.getElementById("aboutButton");
 
 // Add click event listener to the button
