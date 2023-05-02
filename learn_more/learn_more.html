@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet" />
+        <link href="./css/learn_more.css" rel="stylesheet" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="v98_1943">
+            <span class="v98_1945">Habitat</span>
+            <span class="v347_70"><button id="aboutButton">About Us</button></span>
+            <span class="v347_72"><button id="homeButton">Home</button></span>
+            <span class="v347_74"><button id="surveyButton">Survey</button></span>
+            <span class="v347_76"><button id="resultsButton">Results</button></span>
+            <span class="v347_78"><button id="learnMoreButton">Learn More</button></span>
+            <div class="name"></div>
+            <div class ="charts">
+                <div id="observablehq-text-0e7854f7"></div>
+                <div id="observablehq-viewof-option_pie-0e7854f7"></div>
+                <div id="observablehq-chart-0e7854f7"></div>
+                <div id="observablehq-textMap-0e7854f7"></div>
+                <div id="observablehq-viewof-option_map-0e7854f7"></div>
+                <div id="observablehq-map_chart-0e7854f7"></div>
+            </div>
+        </div>
+
+        
+        
+        
+        <script type="module">
+            import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
+            import define from "https://api.observablehq.com/d/28162d2c7666571b@491.js?v=3";
+            new Runtime().module(define, name => {
+              if (name === "text") return new Inspector(document.querySelector("#observablehq-text-0e7854f7"));
+              if (name === "viewof option_pie") return new Inspector(document.querySelector("#observablehq-viewof-option_pie-0e7854f7"));
+              if (name === "chart") return new Inspector(document.querySelector("#observablehq-chart-0e7854f7"));
+              if (name === "textMap") return new Inspector(document.querySelector("#observablehq-textMap-0e7854f7"));
+              if (name === "viewof option_map") return new Inspector(document.querySelector("#observablehq-viewof-option_map-0e7854f7"));
+              if (name === "map_chart") return new Inspector(document.querySelector("#observablehq-map_chart-0e7854f7"));
+              return ["chart_data","top5_chartData","color_scale"].includes(name);
+            });
+            </script>
+    </body>
+</html>
