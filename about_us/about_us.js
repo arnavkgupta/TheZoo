@@ -24,7 +24,7 @@ var homeButton = document.getElementById("homeButton");
 // Add click event listener to the button
 homeButton.addEventListener("click", function() {
   // Navigate to the desired page
-  window.location.href = "../home/home.html";
+  window.location.href = "../index.html";
 });
 
 
