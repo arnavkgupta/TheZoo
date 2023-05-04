@@ -27,6 +27,16 @@ learnMore.addEventListener("click", function() {
 
 
 // Get the button element
+var resultsButton = document.getElementById("resultsButton");
+
+// Add click event listener to the button
+resultsButton.addEventListener("click", function() {
+  // Navigate to the desired page
+  window.location.href = "../newGuide/newGuide.html";
+});
+
+
+// Get the button element
 var homeButton = document.getElementById("homeButton");
 
 // Add click event listener to the button
@@ -46,14 +56,6 @@ surveyButton.addEventListener("click", function() {
 });
 
 
-// Get the button element
-var resultsButton = document.getElementById("resultsButton");
-
-// Add click event listener to the button
-resultsButton.addEventListener("click", function() {
-  // Navigate to the desired page
-  window.location.href = "../guide/guide.html";
-});
 
 
 // Get the button element
