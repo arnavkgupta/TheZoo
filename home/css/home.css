@@ -120,7 +120,7 @@ body {
 
 .v28_62 {
   width: 100%;
-  height: 982px;
+  height: 1100px;
   background: rgba(253,255,255,1);
   opacity: 1;
   position: absolute;
@@ -279,7 +279,7 @@ body {
   position: absolute;
   top: 0px;
   left: 0px;
-  border-top-left-radius: 30px;
+  border-top-left-radius:15px;
   border-top-right-radius: 30px;
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
@@ -432,4 +432,11 @@ body {
 }
 .name {
   color: #fff;
+}
+
+.writeup {
+  margin-top: 850px; 
+  margin-left: 140px;
+  font-size: 18px;
+  margin-right: 40px;
 }
