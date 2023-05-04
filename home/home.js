@@ -4,7 +4,7 @@ var interestSurvey = document.getElementById("interestSurvey");
 // Add click event listener to the button
 interestSurvey.addEventListener("click", function() {
   // Navigate to the desired page
-  window.location.href = "../survey/survey.html";
+  window.location.href = "../newGuide/newGuide.html";
 });
 
 // Get the button element
@@ -44,19 +44,6 @@ homeButton.addEventListener("click", function() {
   // Navigate to the desired page
   window.location.href = "../home/home.html";
 });
-
-
-// Get the button element
-var surveyButton = document.getElementById("surveyButton");
-
-// Add click event listener to the button
-surveyButton.addEventListener("click", function() {
-  // Navigate to the desired page
-  window.location.href = "../survey/survey.html";
-});
-
-
-
 
 // Get the button element
 var learnMoreButton = document.getElementById("learnMoreButton");

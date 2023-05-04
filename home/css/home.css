@@ -435,8 +435,10 @@ body {
 }
 
 .writeup {
-  margin-top: 850px; 
+  margin-top: 900px; 
   margin-left: 140px;
   font-size: 18px;
   margin-right: 40px;
+  font-family: Rubik; 
+  font-style: italic; 
 }
