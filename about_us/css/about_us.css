@@ -7,14 +7,20 @@ body {
 
 #learnMore {
   display:block;
-  margin: 0 auto;
-  padding: 10px 20px;
-  background-color: rgba(109,120,99,1);
-  color: #fff;
-  font-size: 16px;
+  margin: 0;
+  background: transparent;
+  color: black;
+  font-size: 24px;
+  font-family: Rubik;
+  font-weight: bold;
   cursor: pointer;
   border: none;
-  border-radius: 4px;
+}
+
+/* Hover effect for the button */
+#learnMore:hover {
+  text-decoration:underline;
+  color: rgba(109,120,99,1);
 }
 
 
@@ -304,7 +310,7 @@ body {
   color: rgba(0,0,0,1);
   position: absolute;
   top: 63px;
-  left: 965px;
+  left: 1080px;
   font-family: Rubik;
   font-weight: Medium;
   font-size: 24px;
@@ -313,37 +319,39 @@ body {
 }
 
 #aboutButton {
-  display: block;
-  margin: 0 auto;
-  padding: 10px 20px;
-  background-color: rgba(109,120,99,1);
-  color: #fff;
-  font-size: 16px;
+  display:block;
+  margin: 0;
+  background: transparent;
+  color: black;
+  font-size: 24px;
+  font-family: Rubik;
+  font-weight: bold;
   cursor: pointer;
   border: none;
-  border-radius: 4px;
 }
 
 /* Hover effect for the button */
 #aboutButton:hover {
-  background-color: rgba(109,120,99,1);
+  text-decoration:underline;
+  color: rgba(109,120,99,1);
 }
 
 #homeButton {
-  display: block;
-  margin: 0 auto;
-  padding: 10px 20px;
-  background-color: rgba(109,120,99,1);
-  color: #fff;
-  font-size: 16px;
+  display:block;
+  margin: 0;
+  background: transparent;
+  color: black;
+  font-size: 24px;
+  font-family: Rubik;
+  font-weight: bold;
   cursor: pointer;
   border: none;
-  border-radius: 4px;
 }
 
 /* Hover effect for the button */
 #homeButton:hover {
-  background-color: rgba(109,120,99,1);
+  text-decoration:underline;
+  color: rgba(109,120,99,1);
 }
 
 #surveyButton {
@@ -364,20 +372,21 @@ body {
 }
 
 #resultsButton {
-  display: block;
-  margin: 0 auto;
-  padding: 10px 20px;
-  background-color: rgba(109,120,99,1);
-  color: #fff;
-  font-size: 16px;
+  display:block;
+  margin: 0;
+  background: transparent;
+  color: black;
+  font-size: 24px;
+  font-family: Rubik;
+  font-weight: bold;
   cursor: pointer;
   border: none;
-  border-radius: 4px;
 }
 
 /* Hover effect for the button */
 #resultsButton:hover {
-  background-color: rgba(109,120,99,1);
+  text-decoration:underline;
+  color: rgba(109,120,99,1);
 }
 
 .v347_72 {
@@ -385,7 +394,7 @@ body {
   color: rgba(0,0,0,1);
   position: absolute;
   top: 63px;
-  left: 867px;
+  left: 977px;
   font-family: Rubik;
   font-weight: Medium;
   font-size: 24px;
@@ -397,7 +406,7 @@ body {
   color: rgba(0,0,0,1);
   position: absolute;
   top: 63px;
-  left: 1108px;
+  left: 1228px;
   font-family: Rubik;
   font-weight: Medium;
   font-size: 24px;
@@ -409,7 +418,7 @@ body {
   color: rgba(0,0,0,1);
   position: absolute;
   top: 63px;
-  left: 1223px;
+  left: 1332px;
   font-family: Rubik;
   font-weight: Medium;
   font-size: 24px;

@@ -1524,49 +1524,73 @@ select:focus {
 }
 
 #aboutButton {
-  display: block;
-  margin: 0 auto;
-  padding: 10px 20px;
-  background-color: rgba(109,120,99,1);
-  color: #fff;
-  font-size: 16px;
+  display:block;
+  margin: 0;
+  background: transparent;
+  color: black;
+  font-size: 24px;
+  font-family: Rubik;
+  font-weight: bold;
   cursor: pointer;
   border: none;
-  border-radius: 4px;
+}
+
+/* Hover effect for the button */
+#aboutButton:hover {
+  text-decoration:underline;
+  color: rgba(109,120,99,1);
 }
 
 #homeButton {
-  display: block;
-  margin: 0 auto;
-  padding: 10px 20px;
-  background-color: rgba(109,120,99,1);
-  color: #fff;
-  font-size: 16px;
+  display:block;
+  margin: 0;
+  background: transparent;
+  color: black;
+  font-size: 24px;
+  font-family: Rubik;
+  font-weight: bold;
   cursor: pointer;
   border: none;
-  border-radius: 4px;
+}
+
+/* Hover effect for the button */
+#homeButton:hover {
+  text-decoration:underline;
+  color: rgba(109,120,99,1);
 }
 
 #guideButton {
-  display: block;
-  margin: 0 auto;
-  padding: 10px 20px;
-  background-color: rgba(109,120,99,1);
-  color: #fff;
-  font-size: 16px;
+  display:block;
+  margin: 0;
+  background: transparent;
+  color: black;
+  font-size: 24px;
+  font-family: Rubik;
+  font-weight: bold;
   cursor: pointer;
   border: none;
-  border-radius: 4px;
+}
+
+/* Hover effect for the button */
+#guideButton:hover {
+  text-decoration:underline;
+  color: rgba(109,120,99,1);
 }
 
 #learnMore {
-  display: block;
-  margin: 0 auto;
-  padding: 10px 20px;
-  background-color: rgba(109,120,99,1);
-  color: #fff;
-  font-size: 16px;
+  display:block;
+  margin: 0;
+  background: transparent;
+  color: black;
+  font-size: 24px;
+  font-family: Rubik;
+  font-weight: bold;
   cursor: pointer;
   border: none;
-  border-radius: 4px;
+}
+
+/* Hover effect for the button */
+#learnMore:hover {
+  text-decoration:underline;
+  color: rgba(109,120,99,1);
 }
