@@ -1,8 +1,8 @@
 // Get the button element
-var learnMoreButton = document.getElementById("learnMore");
+var learnMore = document.getElementById("learnMore");
 
 // Add click event listener to the button
-learnMoreButton.addEventListener("click", function() {
+learnMore.addEventListener("click", function() {
   // Navigate to the desired page
   window.location.href = "../learn_more/learn_more.html";
 });
@@ -28,9 +28,8 @@ homeButton.addEventListener("click", function() {
 });
 
 
-
 // Get the button element
-var resultsButton = document.getElementById("resultsButton");
+var resultsButton = document.getElementById("guideButton");
 
 // Add click event listener to the button
 resultsButton.addEventListener("click", function() {
