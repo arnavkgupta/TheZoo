@@ -454,4 +454,14 @@ body {
   margin-right: 40px;
   font-family: Rubik; 
   font-style: italic; 
+  line-height: 2;
+}
+
+.heading {
+  font-family: Rubik;
+  margin-top: -220px;
+  margin-left: 610px;
+  font-size: 30px;
+  font-weight: bold;
+
 }
