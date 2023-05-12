@@ -1,3 +1,5 @@
+
+
 // Get the button element
 var learnMoreButton = document.getElementById("learnMore");
 

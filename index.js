@@ -1,10 +1,10 @@
 // Get the button element
-var interestSurvey = document.getElementById("interestSurvey");
+var arrow = document.getElementById("arrowButton");
 
 // Add click event listener to the button
-interestSurvey.addEventListener("click", function() {
+arrow.addEventListener("click", function() {
   // Navigate to the desired page
-  window.location.href = "newGuide/newGuide.html";
+  window.scrollBy(0, 950);
 });
 
 // Get the button element
@@ -13,18 +13,8 @@ var aboutButton = document.getElementById("aboutButton");
 // Add click event listener to the button
 aboutButton.addEventListener("click", function() {
   // Navigate to the desired page
-  window.location = 'about_us/about_us.html';
+  window.location.href = 'about_us/about_us.html';
 });
-
-// Get the button element
-var learnMore = document.getElementById("learnMore");
-
-// Add click event listener to the button
-learnMore.addEventListener("click", function() {
-  // Navigate to the desired page
-  window.location.href = "learn_more/learn_more.html";
-});
-
 
 // Get the button element
 var resultsButton = document.getElementById("resultsButton");
@@ -35,21 +25,20 @@ resultsButton.addEventListener("click", function() {
   window.location.href = "newGuide/newGuide.html";
 });
 
-
 // Get the button element
-var homeButton = document.getElementById("homeButton");
+var startButton = document.getElementById("getStarted");
 
 // Add click event listener to the button
-homeButton.addEventListener("click", function() {
+startButton.addEventListener("click", function() {
   // Navigate to the desired page
-  window.location.href = "index.html";
+  window.location.href = "home/home.html";
 });
 
 // Get the button element
-var learnMoreButton = document.getElementById("learnMoreButton");
+var dashboardButton = document.getElementById("dashboardButton");
 
 // Add click event listener to the button
-learnMoreButton.addEventListener("click", function() {
+dashboardButton.addEventListener("click", function() {
   // Navigate to the desired page
   window.location.href = "learn_more/learn_more.html";
 });
