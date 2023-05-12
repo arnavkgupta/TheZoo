@@ -36,3 +36,13 @@ resultsButton.addEventListener("click", function() {
   // Navigate to the desired page
   window.location.href = "../newGuide/newGuide.html";
 });
+
+function flipCard() {
+  var card = document.querySelector(".flip-card-inner");
+  card.classList.toggle("flipped");
+}
+
+function flipCard(index) {
+  var cards = document.querySelectorAll(".flip-card-inner");
+  cards[index].classList.toggle("flipped");
+}
