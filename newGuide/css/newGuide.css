@@ -226,6 +226,21 @@ body {
   left: 55px;
   overflow: hidden;
 }
+
+.v791_224_2 {
+  width: 250px;
+  height: 350px;
+  background: url("../images/v791_224.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 30px;
+  left: 55px;
+  overflow: hidden;
+}
+
 .v791_225 {
   width: 500px;
   height: 107px;
@@ -258,9 +273,9 @@ body {
 
 .v791_226_2 {
   width: 226px;
-  height: 100px;
+  height: 200px;
   position: absolute;
-  top: 24px;
+  top: 0px;
   left: 0px;
   font-family: Rubik;
   font-weight: ExtraBold;
@@ -772,6 +787,23 @@ body {
   box-shadow: 0px 4px 12px rgba(0.47130101919174194, 0.5, 0.4437499940395355, 0.10000000149011612);
   overflow: hidden;
 }
+
+.v791_237_1 {
+  width: 325px;
+  height: 318px;
+  background: url("../images/sustainable.jpeg");
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 0px 4px 12px rgba(0.47130101919174194, 0.5, 0.4437499940395355, 0.10000000149011612);
+  overflow: hidden;
+}
+
 .v791_238 {
   width: 226px;
   height: 107px;
@@ -811,16 +843,16 @@ body {
   text-align: center;
 }
 .v791_241 {
-  width: 93px;
-  color: rgba(129,129,129,1);
+  width: 226px;
+  height: 100px;
   position: absolute;
-  top: 57px;
-  left: 25px;
+  top: 24px;
+  left: 0px;
   font-family: Rubik;
-  font-weight: Medium;
-  font-size: 12px;
+  font-weight: ExtraBold;
+  font-size: 18px;
   opacity: 1;
-  text-align: left;
+  text-align: center;
 }
 .v791_242 {
   width: 76px;
@@ -850,7 +882,6 @@ body {
 .v791_24524 {
   width: 325px;
   height: 318px;
-  background: url("../images/sustainable.jpeg");
   opacity: 1;
   position: absolute;
   top: 0px;
