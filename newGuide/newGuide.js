@@ -46,3 +46,5 @@ function flipCard(index) {
   var cards = document.querySelectorAll(".flip-card-inner");
   cards[index].classList.toggle("flipped");
 }
+
+
