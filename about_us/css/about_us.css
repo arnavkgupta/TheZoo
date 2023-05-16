@@ -23,12 +23,16 @@ body {
   color: rgba(109,120,99,1);
 }
 
-
+.habitat {
+  position: relative;
+  margin-top: -80px;
+  margin-left: 15px;
+}
 
 .v98_1943 {
   width: 100%;
   height: 982px;
-  background-image: url("../images/new.png");
+  background: linear-gradient(rgba(124,174,75,0.11999999731779099), rgba(124,174,75,0.5));
   opacity: 1;
   position: absolute;
   top: 0px;

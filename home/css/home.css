@@ -134,7 +134,7 @@ body {
 .v28_62 {
   width: 100%;
   height: 1100px;
-  background: rgba(253,255,255,1);
+  background: linear-gradient(rgba(124,174,75,0.11999999731779099), rgba(124,174,75,0.5));
   opacity: 1;
   position: absolute;
   top: 0px;
@@ -144,7 +144,6 @@ body {
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
   overflow: hidden;
-  background-image: url("../images/new.png");
 }
 
 .v28_62 {
@@ -199,7 +198,7 @@ body {
 .v28_71 {
   width: 539px;
   height: 307px;
-  background: rgba(231,148,232,0.5600000023841858);
+  background: rgb(171, 205, 141);
   opacity: 1;
   position: absolute;
   top: 19px;
@@ -213,7 +212,7 @@ body {
 .v28_74 {
   width: 539px;
   height: 305px;
-  background: rgba(231,148,232,1);
+  background: rgba(124,174,76);
   opacity: 1;
   position: absolute;
   top: 0px;
@@ -273,7 +272,7 @@ body {
 .v28_72 {
   width: 539px;
   height: 307px;
-  background: rgba(148,172,233,0.5600000023841858);
+  background: rgb(131, 154, 109);
   opacity: 1;
   position: absolute;
   top: 19px;
@@ -287,7 +286,7 @@ body {
 .v28_78 {
   width: 539px;
   height: 305px;
-  background: rgba(148,171,232,1);
+  background: rgba(70,100,42);
   opacity: 1;
   position: absolute;
   top: 0px;
