@@ -37,14 +37,46 @@ resultsButton.addEventListener("click", function() {
   window.location.href = "../newGuide/newGuide.html";
 });
 
-function flipCard() {
-  var card = document.querySelector(".flip-card-inner");
-  card.classList.toggle("flipped");
+// Get the filter input element and checkboxes
+const filterInput = document.getElementById('filterInput');
+const checkboxes = document.querySelectorAll('input[type="checkbox"][name="option[]"]');
+
+// Add event listeners for input changes and checkbox clicks
+filterInput.addEventListener('input', filterItems);
+checkboxes.forEach(checkbox => checkbox.addEventListener('change', filterItems));
+
+// Function to filter the items
+function filterItems() {
+  // Get the value entered in the input
+  const filterValue = filterInput.value.toLowerCase();
+
+  // Get the selected checkboxes
+  const selectedCheckboxes = Array.from(checkboxes)
+    .filter(checkbox => checkbox.checked)
+    .map(checkbox => checkbox.value.toLowerCase());
+
+  // Get the items
+  const items = document.querySelectorAll('.item');
+
+  // Loop through each item
+  items.forEach(item => {
+    const category = item.getAttribute('data-category').toLowerCase();
+
+    // Check if the item matches the filter value and selected checkboxes
+    const matchFilter = filterValue === '' || item.innerText.toLowerCase().includes(filterValue);
+    const matchCategory = selectedCheckboxes.length === 0 || selectedCheckboxes.includes(category);
+
+    // Show or hide the item based on filter and checkbox matches
+    if (matchFilter && matchCategory) {
+      item.style.display = ''; // Show the item
+    } else {
+      item.style.display = 'none'; // Hide the item
+    }
+  });
 }
 
+// Function to flip the card
 function flipCard(index) {
-  var cards = document.querySelectorAll(".flip-card-inner");
-  cards[index].classList.toggle("flipped");
+  const card = document.getElementsByClassName('item')[index];
+  card.classList.toggle('flipped');
 }
-
-
