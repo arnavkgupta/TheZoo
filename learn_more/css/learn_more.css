@@ -25,13 +25,40 @@
   
   .v98_1943 {
     width: 100%;
-    height: absolute;
-    background-image: url("../images/new.png");
+    height: 2000px;
+    background: linear-gradient(rgba(124,174,75,0.11999999731779099), rgba(124,174,75,0.5));
     opacity: 1;
     position: absolute;
     top: 0px;
     left: 0px;
     overflow: hidden;
+  }
+
+  .habitat {
+    position: relative;
+    margin-top: -80px;
+    margin-left: 15px;
+  }
+
+  .flourish-embed {
+    margin-left: 70px;
+  }
+
+  .flourish-map {
+    border-style: outset;
+    border-color: green;
+    border-width: 3px;
+    bottom: 50px;
+  }
+
+  .flourish-pie-chart {
+    border-style: outset;
+    border-color: green;
+  }
+
+  .flourish-chart {
+    border-style: outset;
+    border-color: green;
   }
 
   .observablehq {
@@ -449,8 +476,10 @@
     color: #fff;
   }
 
-  .chart {
-    margin-top: 50px;
+  .charts {
+    margin-top: 150px;
+    margin-left: 50px;
+    width: 50%;
   }
 
   
