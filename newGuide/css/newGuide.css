@@ -3,11 +3,13 @@
 }
 body {
   font-size: 14px;
+  overflow-x: hidden;
 }
+
 .v791_10 {
   width: 100%;
-  height: 2143px;
-  background: rgba(253,255,255,1);
+  height: 7000px;
+  background: linear-gradient(rgba(124,174,75,0.11999999731779099), rgba(124,174,75,0.5));
   opacity: 1;
   position: absolute;
   top: 0px;
@@ -17,7 +19,6 @@ body {
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
   overflow: hidden;
-  background: url("../images/new.png");
 }
 .v791_11 {
   width: 100%;
@@ -112,7 +113,7 @@ body {
 .v791_81 {
   width: 325px;
   height: 318px;
-  background: url("../images/thrift.png");
+  background: url("../images/art.png");
   opacity: 1;
   position: absolute;
   top: 0px;
@@ -201,7 +202,7 @@ body {
 .v791_223 {
   width: 325px;
   height: 318px;
-  background: url("../images/thrift.png");  
+  background: url("../images/art.png");  
   opacity: 1;
   position: absolute;
   top: 0px;
@@ -595,7 +596,7 @@ body {
 .v791_24517 {
   width: 325px;
   height: 318px;
-  background: url("../images/eco.png");
+  background: url("../images/running.png");
   opacity: 1;
   position: absolute;
   top: 0px;
@@ -1061,7 +1062,7 @@ body {
 .v791_69 {
   width: 325px;
   height: 318px;
-  background: url("../images/iceCream.png");
+  background: url("../images/lifiting.png");
   opacity: 1;
   position: absolute;
   top: 0px;
@@ -1694,3 +1695,774 @@ select:focus {
 .flipped {
   transform: rotateY(180deg);
 }
+
+.v1 {
+  width: 325px;
+  height: 318px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 2118px;
+  left: 184px;
+  overflow: visible;
+}
+
+.v2 {
+  width: 325px;
+  height: 318px;
+  background: url("../images/reading.png");
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 0px 4px 12px rgba(0.47130101919174194, 0.5, 0.4437499940395355, 0.10000000149011612);
+  overflow: visible;
+}
+
+.v2_2 {
+  width: 325px;
+  height: 318px;
+  background: url("../images/music.png");
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 0px 4px 12px rgba(0.47130101919174194, 0.5, 0.4437499940395355, 0.10000000149011612);
+  overflow: visible;
+}
+
+.v2_3 {
+  width: 325px;
+  height: 318px;
+  background: url("../images/makeup.png");
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 0px 4px 12px rgba(0.47130101919174194, 0.5, 0.4437499940395355, 0.10000000149011612);
+  overflow: visible;
+}
+
+.v2_4 {
+  width: 325px;
+  height: 318px;
+  background: url("../images/fashion.png");
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 0px 4px 12px rgba(0.47130101919174194, 0.5, 0.4437499940395355, 0.10000000149011612);
+  overflow: visible;
+}
+
+.v2_5 {
+  width: 325px;
+  height: 318px;
+  background: url("../images/skiing.png");
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 0px 4px 12px rgba(0.47130101919174194, 0.5, 0.4437499940395355, 0.10000000149011612);
+  overflow: visible;
+}
+
+.v2_6 {
+  width: 325px;
+  height: 318px;
+  background: url("../images/food.png");
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 0px 4px 12px rgba(0.47130101919174194, 0.5, 0.4437499940395355, 0.10000000149011612);
+  overflow: visible;
+}
+
+.v2_7 {
+  width: 325px;
+  height: 318px;
+  background: url("../images/hiking.png");
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 0px 4px 12px rgba(0.47130101919174194, 0.5, 0.4437499940395355, 0.10000000149011612);
+  overflow: visible;
+}
+
+.v2_9 {
+  width: 325px;
+  height: 318px;
+  background: url("../images/performing-arts.png");
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 0px 4px 12px rgba(0.47130101919174194, 0.5, 0.4437499940395355, 0.10000000149011612);
+  overflow: visible;
+}
+
+.v2_10 {
+  width: 325px;
+  height: 318px;
+  background: url("../images/sports.png");
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 0px 4px 12px rgba(0.47130101919174194, 0.5, 0.4437499940395355, 0.10000000149011612);
+  overflow: visible;
+}
+
+.v3 {
+  width: 215px;
+  height: 111px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 103px;
+  left: 55px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  overflow: hidden;
+}
+
+.v4 {
+  width: 325px;
+  height: 318px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 2118px;
+  left: 594px;
+  overflow: visible;
+}
+
+.v5 {
+  width: 325px;
+  height: 318px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 2118px;
+  left: 1004px;
+  overflow: visible;
+}
+
+.v6 {
+  width: 325px;
+  height: 318px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 2515px;
+  left: 184px;
+  overflow: visible;
+}
+
+.v7 {
+  width: 325px;
+  height: 318px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 2515px;
+  left: 594px;
+  overflow: visible;
+}
+
+.v8 {
+  width: 325px;
+  height: 318px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 2515px;
+  left: 1004px;
+  overflow: visible;
+}
+
+.v9 {
+  width: 325px;
+  height: 318px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 2912px;
+  left: 184px;
+  overflow: visible;
+}
+
+.v10 {
+  width: 325px;
+  height: 318px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 2912px;
+  left: 594px;
+  overflow: visible;
+  }
+  
+  .v11 {
+  width: 325px;
+  height: 318px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 2912px;
+  left: 1004px;
+  overflow: visible;
+  }
+  
+  .v12 {
+  width: 325px;
+  height: 318px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 3310px;
+  left: 184px;
+  overflow: visible;
+  }
+  
+  .v13 {
+  width: 325px;
+  height: 318px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 3310px;
+  left: 594px;
+  overflow: visible;
+  }
+  
+  .v14 {
+  width: 325px;
+  height: 318px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 3310px;
+  left: 1004px;
+  overflow: visible;
+  }
+  
+  .v15 {
+  width: 325px;
+  height: 318px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 3707px;
+  left: 184px;
+  overflow: visible;
+  }
+  
+  .v16 {
+  width: 325px;
+  height: 318px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 3707px;
+  left: 594px;
+  overflow: visible;
+  }
+
+  .v17 {
+    width: 325px;
+    height: 318px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 3707px;
+    left: 1004px;
+    overflow: visible;
+    }
+    
+    .v18 {
+    width: 325px;
+    height: 318px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 4103px;
+    left: 184px;
+    overflow: visible;
+    }
+    
+    .v19 {
+    width: 325px;
+    height: 318px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 4103px;
+    left: 594px;
+    overflow: visible;
+    }
+
+    .v20 {
+      width: 325px;
+      height: 318px;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 4103px;
+      left: 1004px;
+      overflow: visible;
+      }
+
+      .v21 {
+        width: 325px;
+        height: 318px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        opacity: 1;
+        position: absolute;
+        top: 4499px;
+        left: 184px;
+        overflow: visible;
+      }
+      
+      .v22 {
+        width: 325px;
+        height: 318px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        opacity: 1;
+        position: absolute;
+        top: 4499px;
+        left: 594px;
+        overflow: visible;
+      }
+      
+      .v23 {
+        width: 325px;
+        height: 318px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        opacity: 1;
+        position: absolute;
+        top: 4499px;
+        left: 1004px;
+        overflow: visible;
+      }
+      
+      .v24 {
+        width: 325px;
+        height: 318px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        opacity: 1;
+        position: absolute;
+        top: 4895px;
+        left: 184px;
+        overflow: visible;
+      }
+      
+      .v25 {
+        width: 325px;
+        height: 318px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        opacity: 1;
+        position: absolute;
+        top: 4895px;
+        left: 594px;
+        overflow: visible;
+      }
+      
+      .v26 {
+        width: 325px;
+        height: 318px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        opacity: 1;
+        position: absolute;
+        top: 4895px;
+        left: 1004px;
+        overflow: visible;
+      }
+      
+      .v27 {
+        width: 325px;
+        height: 318px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        opacity: 1;
+        position: absolute;
+        top: 5291px;
+        left: 184px;
+        overflow: visible;
+      }
+      
+      .v28 {
+        width: 325px;
+        height: 318px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        opacity: 1;
+        position: absolute;
+        top: 5291px;
+        left: 594px;
+        overflow: visible;
+      }
+      
+      .v29 {
+        width: 325px;
+        height: 318px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        opacity: 1;
+        position: absolute;
+        top: 5291px;
+        left: 1004px;
+        overflow: visible;
+      }
+
+      .v30 {
+        width: 325px;
+        height: 318px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        opacity: 1;
+        position: absolute;
+        top: 5687px;
+        left: 184px;
+        overflow: visible;
+        }
+        
+        .v31 {
+        width: 325px;
+        height: 318px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        opacity: 1;
+        position: absolute;
+        top: 5687px;
+        left: 594px;
+        overflow: visible;
+        }
+        
+        .v32 {
+        width: 325px;
+        height: 318px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        opacity: 1;
+        position: absolute;
+        top: 5687px;
+        left: 1004px;
+        overflow: visible;
+        }
+        
+        .v33 {
+        width: 325px;
+        height: 318px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        opacity: 1;
+        position: absolute;
+        top: 6083px;
+        left: 184px;
+        overflow: visible;
+        }
+        
+        .v34 {
+        width: 325px;
+        height: 318px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        opacity: 1;
+        position: absolute;
+        top: 6083px;
+        left: 594px;
+        overflow: visible;
+        }
+        
+        .v35 {
+        width: 325px;
+        height: 318px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        opacity: 1;
+        position: absolute;
+        top: 6083px;
+        left: 1004px;
+        overflow: visible;
+        }
+
+        .v36 {
+          width: 325px;
+          height: 318px;
+          background-repeat: no-repeat;
+          background-position: center center;
+          background-size: cover;
+          opacity: 1;
+          position: absolute;
+          top: 6479px;
+          left: 184px;
+          overflow: visible;
+          }
+          
+          .v37 {
+          width: 325px;
+          height: 318px;
+          background-repeat: no-repeat;
+          background-position: center center;
+          background-size: cover;
+          opacity: 1;
+          position: absolute;
+          top: 6479px;
+          left: 594px;
+          overflow: visible;
+          }
+          
+          .v38 {
+          width: 325px;
+          height: 318px;
+          background-repeat: no-repeat;
+          background-position: center center;
+          background-size: cover;
+          opacity: 1;
+          position: absolute;
+          top: 6479px;
+          left: 1004px;
+          overflow: visible;
+          }
+          
+          .v39 {
+          width: 325px;
+          height: 318px;
+          background-repeat: no-repeat;
+          background-position: center center;
+          background-size: cover;
+          opacity: 1;
+          position: absolute;
+          top: 6875px;
+          left: 184px;
+          overflow: visible;
+          }
+          
+          .v40 {
+          width: 325px;
+          height: 318px;
+          background-repeat: no-repeat;
+          background-position: center center;
+          background-size: cover;
+          opacity: 1;
+          position: absolute;
+          top: 6875px;
+          left: 594px;
+          overflow: visible;
+          }
+          
+          .v41 {
+          width: 325px;
+          height: 318px;
+          background-repeat: no-repeat;
+          background-position: center center;
+          background-size: cover;
+          opacity: 1;
+          position: absolute;
+          top: 6875px;
+          left: 1004px;
+          overflow: visible;
+          }
+          
+          .v42 {
+          width: 325px;
+          height: 318px;
+          background-repeat: no-repeat;
+          background-position: center center;
+          background-size: cover;
+          opacity: 1;
+          position: absolute;
+          top: 7271px;
+          left: 184px;
+          overflow: visible;
+          }
+          
+          .v43 {
+          width: 325px;
+          height: 318px;
+          background-repeat: no-repeat;
+          background-position: center center;
+          background-size: cover;
+          opacity: 1;
+          position: absolute;
+          top: 7271px;
+          left: 594px;
+          overflow: visible;
+          }
+          
+          .v44 {
+          width: 325px;
+          height: 318px;
+          background-repeat: no-repeat;
+          background-position: center center;
+          background-size: cover;
+          opacity: 1;
+          position: absolute;
+          top: 7271px;
+          left: 1004px;
+          overflow: visible;
+          }
+          
+          .v45 {
+          width: 325px;
+          height: 318px;
+          background-repeat: no-repeat;
+          background-position: center center;
+          background-size: cover;
+          opacity: 1;
+          position: absolute;
+          top: 7667px;
+          left: 184px;
+          overflow: visible;
+          }
+
+          .v46 {
+            width: 325px;
+            height: 318px;
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            opacity: 1;
+            position: absolute;
+            top: 7667px;
+            left: 594px;
+            overflow: visible;
+          }
+
+          .v47 {
+            width: 325px;
+            height: 318px;
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            opacity: 1;
+            position: absolute;
+            top: 7667px;
+            left: 1004px;
+            overflow: visible;
+          }
+          
+
+      
+
+/* Show card styles */
+.item[style="display:"] {
+  display: flex;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Add media query for responsive layout */
+@media screen and (max-width: 768px) {
+  .item {
+    width: calc(33.33% - 20px);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .item {
+    width: calc(50% - 20px);
+  }
+}
+   
