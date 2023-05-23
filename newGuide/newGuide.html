@@ -4,6 +4,7 @@
       <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet" />
       <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
       <link href="./css/newGuide.css" rel="stylesheet" />
+      <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
       <title>Document</title>
    </head>
    <body>
@@ -13,8 +14,8 @@
          <span class="v791_12">Habitat</span>  
          <span class="v791_22">Guide</span>
 
-         <div class="card-container" id="cardContainer">
-         <div class="v791_80" onmouseenter="flipCard(0)" onclick="window.location.href= 'https://www.binnysfoodandtravel.com/2019/05/17/endangered-species-day-2019-the-impact-of-social-media/'">
+         <div id="cardContainer" class="card-container-grid">
+         <div class="card-container" onmouseenter="flipCard(0)" onclick="window.location.href= 'https://www.binnysfoodandtravel.com/2019/05/17/endangered-species-day-2019-the-impact-of-social-media/'">
             <div class="flip-card-inner card item" data-category="Art">
                <div class="flip-card-front">
                   <div class="v791_81 card-content">
@@ -31,7 +32,7 @@
                </div>
             </div>
          </div>
-         <div class="v791_222" onmouseenter="flipCard(1)" onclick="window.location.href='https://jennykendler.com/section/415000-Endangered-Species-Print-Project.html'">
+         <div class="card-container" onmouseenter="flipCard(1)" onclick="window.location.href='https://jennykendler.com/section/415000-Endangered-Species-Print-Project.html'">
             <div class="flip-card-inner card item" data-category="Art">
               <div class="flip-card-front">
                 <div class="v791_81 card-content">
@@ -50,7 +51,7 @@
          </div>
           
           
-         <div class="v791_24509" onmouseenter="flipCard(2)" onclick="window.location.href='https://www.charitynavigator.org/?bay=content.view&cpid=8636'">
+         <div class="card-container" onmouseenter="flipCard(2)" onclick="window.location.href='https://www.charitynavigator.org/?bay=content.view&cpid=8636'">
             <div class="flip-card-inner item" data-category="Art">
                <div class="flip-card-front">
                   <div class="v791_81 card-content">
@@ -68,7 +69,7 @@
             </div>
          </div>
 
-         <div class="v791_87" onmouseenter="flipCard(3)" onclick="window.location.href='https://design-milk.com/the-endangered-species-print-project/'">
+         <div class="card-container" onmouseenter="flipCard(3)" onclick="window.location.href='https://design-milk.com/the-endangered-species-print-project/'">
             <div class="flip-card-inner item" data-category="Art">
               <div class="flip-card-front">
                 <div class="v791_81 card-content">
@@ -86,7 +87,7 @@
             </div>
           </div>
           
-          <div class="v791_229" onmouseenter="flipCard(4)" onclick="window.location.href='https://unric.org/en/world-wildlife-day-youth-art-contest/'">
+          <div class="card-container" onmouseenter="flipCard(4)" onclick="window.location.href='https://unric.org/en/world-wildlife-day-youth-art-contest/'">
             <div class="flip-card-inner item" data-category="Art">
               <div class="flip-card-front">
                 <div class="v791_81 card-content">
@@ -105,7 +106,7 @@
           </div>
 
           
-          <div class="v791_24516" onmouseenter="flipCard(5)" onclick="window.location.href='https://runforwildlife.com/'">
+          <div class="card-container" onmouseenter="flipCard(5)" onclick="window.location.href='https://runforwildlife.com/'">
             <div class="flip-card-inner item" data-category="Running">
                <div class="flip-card-front">
                   <div class="v791_24517 card-content">
@@ -123,7 +124,7 @@
             </div>
          </div>
          
-         <div class="v791_94" onmouseenter="flipCard(6)" onclick="window.location.href='https://support.worldwildlife.org/site/SPageServer/?pagename=panda_nation_fundraising'">
+         <div class="card-container" onmouseenter="flipCard(6)" onclick="window.location.href='https://support.worldwildlife.org/site/SPageServer/?pagename=panda_nation_fundraising'">
             <div class="flip-card-inner item" data-category="Running">
                <div class="flip-card-front">
                   <div class="v791_24517 card-content">
@@ -143,7 +144,7 @@
          
 
 
-         <div class="v791_236" onmouseenter="flipCard(7)" onclick="window.location.href='https://defenders.org/wildlife'">
+         <div class="card-container" onmouseenter="flipCard(7)" onclick="window.location.href='https://defenders.org/wildlife'">
             <div class="flip-card-inner item" data-category="Running">
               <div class="flip-card-front">
                 <div class="v791_24517 card-content">
@@ -162,7 +163,7 @@
           </div>
           
 
-          <div class="v791_24523" onmouseenter="flipCard(8)" onclick="window.location.href='https://carnivores.org/what-we-do/carnitracks/'">
+          <div class="card-container" onmouseenter="flipCard(8)" onclick="window.location.href='https://carnivores.org/what-we-do/carnitracks/'">
             <div class="flip-card-inner item" data-category="Running">
                <div class="flip-card-front">
                   <div class="v791_237_1"></div>
@@ -181,26 +182,28 @@
             </div>
          </div>
 
-         
-         <div class="v791_108">
-            <div class="v791_218 flip-card" onmouseenter="flipCard(9)" onclick="window.location.href='https://www.virtualrunningclub.com'">
-               <div class="flip-card-inner item" data-category="Running">
-                  <div class="flip-card-front">
-                     <div class="v791_24517 card-content">
-                        <div class="v791_109"></div>
-                        <span class="v791_113">Virtual Running Club</span>
+
+         <div class="card-container" onmouseenter="flipCard(9)" onclick="window.location.href='https://www.virtualrunningclub.com'">
+          <div class="flip-card-inner item" data-category="Running">
+             <div class="flip-card-front">
+                <div class="v791_237_1"></div>
+                <div class="v791_24517 card-content">
+                   <div class="v791_24525">
+                      <div class="v791_24526"></div>
+                      <span class="v791_24527">Virtual Running Club</span>
                      </div>
-                  </div>
-                  <div class="flip-card-back" onmouseleave="flipCard(9)">
-                     <div class="v791_224_2">
-                     <span class="v791_226_2">This is an online community of runners who are passionate about conservation. The club hosts virtual events and challenges to raise funds and awareness for conservation organizations.</span>
-                  </div>
-                  </div>
-               </div>
-            </div>
+                </div>
+             </div>
+             <div class="flip-card-back" onmouseleave="flipCard(9)">
+                <div class="v791_224_2">
+                   <div class="v791_226_2">This is an online community of runners who are passionate about conservation. The club hosts virtual events and challenges to raise funds and awareness for conservation organizations.</div>
+                </div>
+             </div>
+          </div>
+       </div>
 
             
-            <div class="v791_219" onmouseenter="flipCard(10)" onclick="window.location.href='https://www.catalystathletics.com/article/2258/Your-First-Weightlifting-Competition/'">
+            <div class="card-container" onmouseenter="flipCard(10)" onclick="window.location.href='https://www.catalystathletics.com/article/2258/Your-First-Weightlifting-Competition/'">
                <div class="flip-card-inner item" data-category="Working Out">
                   <div class="flip-card-front">
                      <div class="v791_69 card-content"></div>
@@ -215,7 +218,7 @@
                </div>
             </div>
             
-            <div class="v791_220" onmouseenter="flipCard(11)" onclick="window.location.href='https://www.vogue.com/article/sustainable-workout-clothes'">
+            <div class="card-container" onmouseenter="flipCard(11)" onclick="window.location.href='https://www.vogue.com/article/sustainable-workout-clothes'">
                <div class="flip-card-inner item" data-category="Working Out">
                  <div class="flip-card-front">
                    <div class="v791_69 card-content">
@@ -230,9 +233,8 @@
                  </div>
                </div>
              </div>
-         </div>
 
-         <div class="v1" onmouseenter="flipCard(12)" onclick="window.location.href='https://www.ourendangeredworld.com/species/books-on-endangered-species/'">
+         <div class="card-container" onmouseenter="flipCard(12)" onclick="window.location.href='https://www.ourendangeredworld.com/species/books-on-endangered-species/'">
             <div class="flip-card-inner item" data-category="Reading">
               <div class="flip-card-front">
                 <div class="v2 card-content">
@@ -248,7 +250,7 @@
             </div>
           </div>
 
-          <div class="v4" onmouseenter="flipCard(13)" onclick="window.location.href='https://www.ala.org/ala/alalibrary/libraryfactsheet/alalibraryfactsheet12.htm#:~:text=Most%20public%20libraries%20in%20the,the%20library%2C%20or%20discard%20it.'">
+          <div class="card-container" onmouseenter="flipCard(13)" onclick="window.location.href='https://www.ala.org/ala/alalibrary/libraryfactsheet/alalibraryfactsheet12.htm#:~:text=Most%20public%20libraries%20in%20the,the%20library%2C%20or%20discard%20it.'">
             <div class="flip-card-inner item" data-category="Reading">
               <div class="flip-card-front">
                 <div class="v2 card-content">
@@ -264,7 +266,7 @@
             </div>
           </div>
 
-          <div class="v5" onmouseenter="flipCard(14)" onclick="window.location.href='https://jennykendler.com/section/415000-Endangered-Species-Print-Project.html'">
+          <div class="card-container" onmouseenter="flipCard(14)" onclick="window.location.href='https://janegoodall.org'">
             <div class="flip-card-inner item" data-category="Reading">
               <div class="flip-card-front">
                 <div class="v2 card-content">
@@ -280,7 +282,7 @@
             </div>
           </div>
 
-          <div class="v6" onmouseenter="flipCard(15)" onclick="window.location.href='https://jennykendler.com/section/415000-Endangered-Species-Print-Project.html'">
+          <div class="card-container" onmouseenter="flipCard(15)" onclick="window.location.href='https://reverb.com'">
             <div class="flip-card-inner item" data-category="Music">
               <div class="flip-card-front">
                 <div class="v2_2 card-content">
@@ -296,7 +298,7 @@
             </div>
           </div>
     
-          <div class="v7" onmouseenter="flipCard(16)" onclick="window.location.href='https://jennykendler.com/section/415000-Endangered-Species-Print-Project.html'">
+          <div class="card-container" onmouseenter="flipCard(16)" onclick="window.location.href='https://www.savethemusic.org/blog/benefit-concert/'">
             <div class="flip-card-inner item" data-category="Music">
               <div class="flip-card-front">
                 <div class="v2_2 card-content">
@@ -312,7 +314,7 @@
             </div>
           </div>
     
-          <div class="v8" onmouseenter="flipCard(17)" onclick="window.location.href='https://jennykendler.com/section/415000-Endangered-Species-Print-Project.html'">
+          <div class="card-container" onmouseenter="flipCard(17)" onclick="window.location.href='https://www.savethemwithsound.org'">
             <div class="flip-card-inner item" data-category="Music">
               <div class="flip-card-front">
                 <div class="v2_2 card-content">
@@ -328,7 +330,7 @@
             </div>
           </div>
     
-          <div class="v9" onmouseenter="flipCard(18)" onclick="window.location.href='https://jennykendler.com/section/415000-Endangered-Species-Print-Project.html'">
+          <div class="card-container" onmouseenter="flipCard(18)" onclick="window.location.href='https://www.crueltyfreekitty.com/list-of-cruelty-free-brands/'">
             <div class="flip-card-inner item" data-category="Makeup">
               <div class="flip-card-front">
                 <div class="v2_3 card-content">
@@ -344,7 +346,7 @@
             </div>
           </div>
 
-          <div class="v10" onmouseenter="flipCard(19)" onclick="window.location.href='https://jennykendler.com/section/415000-Endangered-Species-Print-Project.html'">
+          <div class="card-container" onmouseenter="flipCard(19)" onclick="window.location.href='https://www.sustainablejungle.com/best-of-sustainable-beauty/best-cruelty-free-vegan-sustainable-makeup-brands-uk-2/'">
             <div class="flip-card-inner item" data-category="Makeup">
               <div class="flip-card-front">
                <div class="v2_3 card-content">
@@ -360,7 +362,7 @@
             </div>
           </div>
           
-          <div class="v11" onmouseenter="flipCard(20)" onclick="window.location.href='https://jennykendler.com/section/415000-Endangered-Species-Print-Project.html'">
+          <div class="card-container" onmouseenter="flipCard(20)" onclick="window.location.href='http://www.sustainablecosmeticssummit.com/Namerica/index.htm'">
             <div class="flip-card-inner item" data-category="Makeup">
               <div class="flip-card-front">
                <div class="v2_3 card-content">
@@ -376,7 +378,7 @@
             </div>
           </div>
           
-          <div class="v12" onmouseenter="flipCard(21)" onclick="window.location.href='https://jennykendler.com/section/415000-Endangered-Species-Print-Project.html'">
+          <div class="card-container" onmouseenter="flipCard(21)" onclick="window.location.href='https://www.lorealparisusa.com/beauty-magazine/skin-care/skin-care-concerns/eco-friendly-beauty-routine'">
             <div class="flip-card-inner item" data-category="Makeup">
               <div class="flip-card-front">
                <div class="v2_3 card-content">
@@ -392,7 +394,7 @@
             </div>
           </div>
           
-          <div class="v13" onmouseenter="flipCard(22)" onclick="window.location.href='https://jennykendler.com/section/415000-Endangered-Species-Print-Project.html'">
+          <div class="card-container" onmouseenter="flipCard(22)" onclick="window.location.href='https://www.pinterest.com/lindakay916/repurposed-clothing/'">
             <div class="flip-card-inner item" data-category="Fashion">
               <div class="flip-card-front">
                 <div class="v2_4 card-content">
@@ -408,7 +410,7 @@
             </div>
           </div>
 
-          <div class="v14" onmouseenter="flipCard(23)" onclick="window.location.href='https://jennykendler.com/section/415000-Endangered-Species-Print-Project.html'">
+          <div class="card-container" onmouseenter="flipCard(23)" onclick="window.location.href='https://www.hennepin.us/choose-to-reuse/tips/benefits-of-buying-secondhand'">
             <div class="flip-card-inner item" data-category="Fashion">
               <div class="flip-card-front">
                <div class="v2_4 card-content">
@@ -423,7 +425,7 @@
               </div>
             </div>
           </div>
-          <div class="v15" onmouseenter="flipCard(24)" onclick="window.location.href='https://jennykendler.com/section/415000-Endangered-Species-Print-Project.html'">
+          <div class="card-container" onmouseenter="flipCard(24)" onclick="window.location.href='https://www.sustainablejungle.com/sustainable-living/ethical-sustainable-fashion/'">
             <div class="flip-card-inner item" data-category="Fashion">
               <div class="flip-card-front">
                <div class="v2_4 card-content">
@@ -438,7 +440,7 @@
               </div>
             </div>
           </div>
-          <div class="v16" onmouseenter="flipCard(25)" onclick="window.location.href='https://jennykendler.com/section/415000-Endangered-Species-Print-Project.html'">
+          <div class="card-container" onmouseenter="flipCard(25)" onclick="window.location.href='https://slowfashionchallenge.com'">
             <div class="flip-card-inner item" data-category="Fashion">
               <div class="flip-card-front">
                <div class="v2_4 card-content">
@@ -453,7 +455,7 @@
               </div>
             </div>
           </div>
-          <div class="v17" onmouseenter="flipCard(26)" onclick="window.location.href='https://jennykendler.com/section/415000-Endangered-Species-Print-Project.html'">
+          <div class="card-container" onmouseenter="flipCard(26)" onclick="window.location.href='https://www.outsideonline.com/adventure-travel/destinations/americas-10-most-environmentally-friendly-ski-resorts/'">
             <div class="flip-card-inner item" data-category="Skiing">
               <div class="flip-card-front">
                 <div class="v2_5 card-content">
@@ -469,7 +471,7 @@
             </div>
           </div>
 
-          <div class="v18" onmouseenter="flipCard(27)" onclick="window.location.href='https://jennykendler.com/section/415000-Endangered-Species-Print-Project.html'">
+          <div class="card-container" onmouseenter="flipCard(27)" onclick="window.location.href='https://www.thehappyturtlestraw.com/how-ski-resorts-and-restaurants-can-replace-single-use-plastic-this-winter/'">
             <div class="flip-card-inner item" data-category="Skiing">
               <div class="flip-card-front">
                <div class="v2_5 card-content">
@@ -485,7 +487,7 @@
               </div>
             </div>
           </div>
-          <div class="v19" onmouseenter="flipCard(28)" onclick="window.location.href='https://jennykendler.com/section/415000-Endangered-Species-Print-Project.html'">
+          <div class="card-container" onmouseenter="flipCard(28)" onclick="window.location.href='https://www.skibasics.com/news/the-best-eco-friendly-ski-wear-sustainable-brands/'">
             <div class="flip-card-inner item" data-category="Skiing">
               <div class="flip-card-front">
                <div class="v2_5 card-content">
@@ -500,7 +502,7 @@
               </div>
             </div>
           </div>
-          <div class="v20" onmouseenter="flipCard(29)" onclick="window.location.href='https://jennykendler.com/section/415000-Endangered-Species-Print-Project.html'">
+          <div class="card-container" onmouseenter="flipCard(29)" onclick="window.location.href='https://www.fisheries.noaa.gov/insight/understanding-sustainable-seafood'">
             <div class="flip-card-inner item" data-category="Food">
               <div class="flip-card-front">
                 <div class="v2_6 card-content">
@@ -516,7 +518,7 @@
             </div>
           </div>
 
-          <div class="v21" onmouseenter="flipCard(30)" onclick="window.location.href='https://jennykendler.com/section/415000-Endangered-Species-Print-Project.html'">
+          <div class="card-container" onmouseenter="flipCard(30)" onclick="window.location.href='https://www.kingarthurbaking.com/blog/2022/07/25/how-to-host-a-fundraising-bake-sale'">
             <div class="flip-card-inner item" data-category="Food">
               <div class="flip-card-front">
                <div class="v2_6 card-content">
@@ -532,7 +534,7 @@
             </div>
           </div>
 
-          <div class="v22" onmouseenter="flipCard(31)" onclick="window.location.href='https://jennykendler.com/section/415000-Endangered-Species-Print-Project.html'">
+          <div class="card-container" onmouseenter="flipCard(31)" onclick="window.location.href='https://www.loveandlemons.com/plant-based-recipes/'">
             <div class="flip-card-inner item" data-category="Food">
               <div class="flip-card-front">
                <div class="v2_6 card-content">
@@ -548,7 +550,7 @@
             </div>
           </div>
           
-          <div class="v23" onmouseenter="flipCard(32)" onclick="window.location.href='https://jennykendler.com/section/415000-Endangered-Species-Print-Project.html'">
+          <div class="card-container" onmouseenter="flipCard(32)" onclick="window.location.href='https://www.ucsusa.org/resources/what-sustainable-agriculture'">
             <div class="flip-card-inner item" data-category="Food">
               <div class="flip-card-front">
                <div class="v2_6 card-content">
@@ -564,7 +566,7 @@
             </div>
           </div>
           
-          <div class="v24" onmouseenter="flipCard(33)" onclick="window.location.href='https://jennykendler.com/section/415000-Endangered-Species-Print-Project.html'">
+          <div class="card-container" onmouseenter="flipCard(33)" onclick="window.location.href='https://www.mayoclinichealthsystem.org/hometown-health/speaking-of-health/7-ways-to-reduce-food-waste-in-your-kitchen'">
             <div class="flip-card-inner item" data-category="Food">
               <div class="flip-card-front">
                <div class="v2_6 card-content">
@@ -580,7 +582,7 @@
             </div>
           </div>
           
-          <div class="v25" onmouseenter="flipCard(34)" onclick="window.location.href='https://jennykendler.com/section/415000-Endangered-Species-Print-Project.html'">
+          <div class="card-container" onmouseenter="flipCard(34)" onclick="window.location.href='https://blog.nationwide.com/family-life/travel-outdoors/tips-for-planting-garden/'">
             <div class="flip-card-inner item" data-category="Food">
               <div class="flip-card-front">
                <div class="v2_6 card-content">
@@ -596,7 +598,7 @@
             </div>
           </div>
 
-          <div class="v26" onmouseenter="flipCard(35)" onclick="window.location.href='https://jennykendler.com/section/415000-Endangered-Species-Print-Project.html'">
+          <div class="card-container" onmouseenter="flipCard(35)" onclick="window.location.href='https://www.considerate-consumer.com/sustainable-food-organizations-movements'">
             <div class="flip-card-inner item" data-category="Food">
               <div class="flip-card-front">
                <div class="v2_6 card-content">
@@ -612,7 +614,7 @@
             </div>
           </div>
           
-          <div class="v27" onmouseenter="flipCard(36)" onclick="window.location.href='https://jennykendler.com/section/415000-Endangered-Species-Print-Project.html'">
+          <div class="card-container" onmouseenter="flipCard(36)" onclick="window.location.href='https://www.adventureincamping.com/blog/respect-the-trail-a-guide-to-hiking-etiquette/'">
             <div class="flip-card-inner item" data-category="Hiking">
               <div class="flip-card-front">
                 <div class="v2_7 card-content">
@@ -628,7 +630,7 @@
             </div>
           </div>
 
-          <div class="v28" onmouseenter="flipCard(37)" onclick="window.location.href='https://jennykendler.com/section/415000-Endangered-Species-Print-Project.html'">
+          <div class="card-container" onmouseenter="flipCard(37)" onclick="window.location.href='https://www.postholer.com/trail-animals'">
             <div class="flip-card-inner item" data-category="Hiking">
               <div class="flip-card-front">
                <div class="v2_7 card-content">
@@ -644,7 +646,7 @@
             </div>
           </div>
           
-          <div class="v29" onmouseenter="flipCard(38)" onclick="window.location.href='https://jennykendler.com/section/415000-Endangered-Species-Print-Project.html'">
+          <div class="card-container" onmouseenter="flipCard(38)" onclick="window.location.href='https://wdfw.wa.gov/get-involved/report-observations'">
             <div class="flip-card-inner item" data-category="Hiking">
               <div class="flip-card-front">
                <div class="v2_7 card-content">
@@ -660,7 +662,7 @@
             </div>
           </div>
           
-          <div class="v30" onmouseenter="flipCard(39)" onclick="window.location.href='https://jennykendler.com/section/415000-Endangered-Species-Print-Project.html'">
+          <div class="card-container" onmouseenter="flipCard(39)" onclick="window.location.href='https://lnt.org/why/7-principles/'">
             <div class="flip-card-inner item" data-category="Hiking">
               <div class="flip-card-front">
                <div class="v2_7 card-content">
@@ -676,7 +678,7 @@
             </div>
           </div>
           
-          <div class="v31" onmouseenter="flipCard(40)" onclick="window.location.href='https://jennykendler.com/section/415000-Endangered-Species-Print-Project.html'">
+          <div class="card-container" onmouseenter="flipCard(40)" onclick="window.location.href='https://sustainability.georgetown.edu/community-engagement/things-you-can-do/'">
             <div class="flip-card-inner item" data-category="Performing Arts">
               <div class="flip-card-front">
                 <div class="v2_9 card-content">
@@ -691,7 +693,7 @@
               </div>
             </div>
           </div>
-          <div class="v32" onmouseenter="flipCard(41)" onclick="window.location.href='https://jennykendler.com/section/415000-Endangered-Species-Print-Project.html'">
+          <div class="card-container" onmouseenter="flipCard(41)" onclick="window.location.href='https://matethelabel.com'">
             <div class="flip-card-inner item" data-category="Performing Arts">
               <div class="flip-card-front">
                <div class="v2_9 card-content">
@@ -706,7 +708,7 @@
               </div>
             </div>
           </div>
-          <div class="v33" onmouseenter="flipCard(42)" onclick="window.location.href='https://jennykendler.com/section/415000-Endangered-Species-Print-Project.html'">
+          <div class="card-container" onmouseenter="flipCard(42)" onclick="window.location.href='https://rallyup.com/blog/danceathon-fundraiser/'">
             <div class="flip-card-inner item" data-category="Performing Arts">
               <div class="flip-card-front">
                <div class="v2_9 card-content">
@@ -721,7 +723,7 @@
               </div>
             </div>
           </div>
-          <div class="v34" onmouseenter="flipCard(43)" onclick="window.location.href='https://jennykendler.com/section/415000-Endangered-Species-Print-Project.html'">
+          <div class="card-container" onmouseenter="flipCard(43)" onclick="window.location.href='https://www.naturejournalingweek.com/blogs/connecting-with-nature-through-art'">
             <div class="flip-card-inner item" data-category="Performing Arts">
               <div class="flip-card-front">
                <div class="v2_9 card-content">
@@ -736,7 +738,7 @@
               </div>
             </div>
           </div>
-          <div class="v35" onmouseenter="flipCard(44)" onclick="window.location.href='https://jennykendler.com/section/415000-Endangered-Species-Print-Project.html'">
+          <div class="card-container" onmouseenter="flipCard(44)" onclick="window.location.href='https://discountdumpsterco.com/blog/how-to-organize-a-community-cleanup/'">
             <div class="flip-card-inner item" data-category="Sports">
               <div class="flip-card-front">
                 <div class="v2_10 card-content">
@@ -752,7 +754,7 @@
             </div>
           </div>
 
-          <div class="v36" onmouseenter="flipCard(45)" onclick="window.location.href='https://jennykendler.com/section/415000-Endangered-Species-Print-Project.html'">
+          <div class="card-container" onmouseenter="flipCard(45)" onclick="window.location.href='https://www.better-fundraising-ideas.com/sports-fundraising-tournament.html'">
             <div class="flip-card-inner item" data-category="Sports">
               <div class="flip-card-front">
                <div class="v2_10 card-content">
@@ -768,7 +770,7 @@
             </div>
           </div>
 
-          <div class="v37" onmouseenter="flipCard(46)" onclick="window.location.href='https://jennykendler.com/section/415000-Endangered-Species-Print-Project.html'">
+          <div class="card-container" onmouseenter="flipCard(46)" onclick="window.location.href='https://www.marieclaire.co.uk/fashion/shopping/best-sustainable-sports-brands-661270'">
             <div class="flip-card-inner item" data-category="Sports">
               <div class="flip-card-front">
                <div class="v2_10 card-content">
@@ -818,18 +820,18 @@
               <input type="text" id="filterInput" placeholder="Filter By..." name="filter">
               <div class="dropdown-content">
                 <div class="options">
-                  <label><input type="checkbox" name="option[]" value="Art">Art</label>
-                  <label><input type="checkbox" name="option[]" value="Running">Running</label>
-                  <label><input type="checkbox" name="option[]" value="Working Out">Working Out</label>
-                  <label><input type="checkbox" name="option[]" value="Reading">Reading</label>
-                  <label><input type="checkbox" name="option[]" value="Music">Music</label>
-                  <label><input type="checkbox" name="option[]" value="Makeup">Makeup</label>
-                  <label><input type="checkbox" name="option[]" value="Fashion">Fashion</label>
-                  <label><input type="checkbox" name="option[]" value="Skiing">Skiing</label>
-                  <label><input type="checkbox" name="option[]" value="Food">Food</label>
-                  <label><input type="checkbox" name="option[]" value="Hiking">Hiking</label>
-                  <label><input type="checkbox" name="option[]" value="Performing Arts">Performing Arts</label>
-                  <label><input type="checkbox" name="option[]" value="Sports">Sports</label>
+                  <label><input type="checkbox" class="filter-checkbox" name="option[]" value="Art">Art</label>
+                  <label><input type="checkbox" class="filter-checkbox" name="option[]" value="Running">Running</label>
+                  <label><input type="checkbox" class="filter-checkbox" name="option[]" value="Working Out">Working Out</label>
+                  <label><input type="checkbox" class="filter-checkbox" name="option[]" value="Reading">Reading</label>
+                  <label><input type="checkbox" class="filter-checkbox" name="option[]" value="Music">Music</label>
+                  <label><input type="checkbox" class="filter-checkbox" name="option[]" value="Makeup">Makeup</label>
+                  <label><input type="checkbox" class="filter-checkbox" name="option[]" value="Fashion">Fashion</label>
+                  <label><input type="checkbox" class="filter-checkbox" name="option[]" value="Skiing">Skiing</label>
+                  <label><input type="checkbox" class="filter-checkbox" name="option[]" value="Food">Food</label>
+                  <label><input type="checkbox" class="filter-checkbox" name="option[]" value="Hiking">Hiking</label>
+                  <label><input type="checkbox" class="filter-checkbox" name="option[]" value="Performing Arts">Performing Arts</label>
+                  <label><input type="checkbox" class="filter-checkbox" name="option[]" value="Sports">Sports</label>
                 </div>
               </div>
             </div>

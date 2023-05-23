@@ -37,14 +37,6 @@ resultsButton.addEventListener("click", function() {
   window.location.href = "../newGuide/newGuide.html";
 });
 
-// Get the filter input element and checkboxes
-const filterInput = document.getElementById('filterInput');
-const checkboxes = document.querySelectorAll('input[type="checkbox"][name="option[]"]');
-
-// Add event listeners for input changes and checkbox clicks
-filterInput.addEventListener('input', filterItems);
-checkboxes.forEach(checkbox => checkbox.addEventListener('change', filterItems));
-
 // Function to filter the items
 function filterItems() {
   // Get the value entered in the input
@@ -80,3 +72,15 @@ function flipCard(index) {
   const card = document.getElementsByClassName('item')[index];
   card.classList.toggle('flipped');
 }
+
+// Get the filter input and checkboxes
+const filterInput = document.getElementById('filterInput');
+const checkboxes = document.querySelectorAll('.filter-checkbox');
+
+// Attach event listeners
+filterInput.addEventListener('input', filterItems);
+checkboxes.forEach(checkbox => checkbox.addEventListener('change', filterItems));
+
+// Call filterItems() initially
+filterItems();
+
