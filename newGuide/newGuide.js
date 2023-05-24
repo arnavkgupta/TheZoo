@@ -60,7 +60,14 @@ function filterItems() {
 
     // Show or hide the item based on filter and checkbox matches
     if (matchFilter && matchCategory) {
-      item.style.display = ''; // Show the item
+      item.style.display = 'flex'; // Show the item
+      if(item.innerText.toLowerCase().includes(filterValue) && selectedCheckboxes.includes(category)) {
+        item.style.display = 'flex'; 
+        item.style.flexDirection = 'column'; 
+        item.style.flexWrap = 'wrap';
+        
+      }
+      
     } else {
       item.style.display = 'none'; // Hide the item
     }
