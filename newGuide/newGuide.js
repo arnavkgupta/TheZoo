@@ -37,8 +37,6 @@ resultsButton.addEventListener("click", function() {
   window.location.href = "../newGuide/newGuide.html";
 });
 
-<<<<<<< HEAD
-=======
 // Function to filter the items
 function filterItems() {
   // Get the value entered in the input
@@ -62,21 +60,13 @@ function filterItems() {
 
     // Show or hide the item based on filter and checkbox matches
     if (matchFilter && matchCategory) {
-      item.style.display = 'flex'; // Show the item
-      if(item.innerText.toLowerCase().includes(filterValue) && selectedCheckboxes.includes(category)) {
-        item.style.display = 'flex'; 
-        item.style.flexDirection = 'column'; 
-        item.style.flexWrap = 'wrap';
-        
-      }
-      
+      item.style.display = ''; // Show the item
     } else {
       item.style.display = 'none'; // Hide the item
     }
   });
 }
 
->>>>>>> 01ae1aec4b3c21a43c46403113f55d5035e63278
 // Function to flip the card
 function flipCard(index) {
   const card = document.getElementsByClassName('item')[index];
