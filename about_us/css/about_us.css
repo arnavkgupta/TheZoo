@@ -103,6 +103,8 @@ body {
   text-align: left;
 }
 
+
+
 .hidePranav {
   display: none;
   width: 228px;
@@ -117,12 +119,16 @@ body {
   text-align: left;
 }
 
-.v98_2281 {
-  width: 209px;
-  color: rgba(109,120,99,1);
+.blurb {
+  width: 600px;
+  height: 1000px;
   position: absolute;
   top: 307px;
   left: 988px;
+}
+
+.v98_2281 {
+  color: rgba(109,120,99,1);
   font-family: Rubik;
   font-weight: ExtraBold Italic;
   font-size: 24px;
@@ -145,11 +151,10 @@ body {
 }
 
 .v98_2282 {
-  width: 365px;
   color: rgba(109,120,99,1);
-  position: absolute;
-  top: 520px;
-  left: 987px;
+  position: relative;
+  top: 200px;
+  left: -127px;
   font-family: Rubik;
   font-weight: ExtraBold Italic;
   font-size: 24px;
@@ -225,11 +230,10 @@ body {
   overflow: hidden;
 }
 .v98_2287 {
-  width: 365px;
   color: rgba(109,120,99,1);
-  position: absolute;
-  top: 369px;
-  left: 987px;
+  position: relative;
+  top: 300px;
+  left: -127px;
   font-family: Rubik;
   font-weight: Regular;
   font-size: 17px;
@@ -273,7 +277,9 @@ body {
   cursor: pointer;
 }
 
-
+.v98_2290:hover {
+  opacity: 0.5;
+}
 
 .v98_2291 {
   width: 179px;

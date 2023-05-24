@@ -38,13 +38,18 @@ resultsButton.addEventListener("click", function() {
   window.location.href = "../newGuide/newGuide.html";
 });
 
+var oldText = document.getElementById("blurb").innerHTML; 
 
 function openPopup() {
   document.getElementById("about").textContent = "Pranav Vasan";
+  document.getElementById("blurb").textContent = "Hi";
 }
 
 function closePopup() {
   document.getElementById("about").textContent = "About Us";
+  document.getElementById("blurb").innerHTML = oldText;
+
+
 
 }
 
