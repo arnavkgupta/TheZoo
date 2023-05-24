@@ -91,14 +91,14 @@ body {
   left: 8px;
 }
 .v98_2280 {
-  width: 228px;
-  color: rgba(124,174,75,1);
+  width: 300px;
+  font-family: Rubik Bubbles;
+  color: rgba(61,83,39,1);
   position: absolute;
   top: 210px;
   left: 985px;
-  font-family: Rubik;
   font-weight: SemiBold;
-  font-size: 48px;
+  font-size: 40px;
   opacity: 1;
   text-align: left;
 }
@@ -269,12 +269,11 @@ body {
   position: absolute;
   top: 263px;
   left: 359px;
-  border-radius: 50%;
+  border-radius: 100%;
+  cursor: pointer;
 }
 
-.v98_2280:hover {
-  color: red;
-}
+
 
 .v98_2291 {
   width: 179px;
@@ -287,6 +286,8 @@ body {
   left: 550px;
   border-radius: 50%;
 }
+
+
 .v98_2292 {
   width: 178px;
   height: 179px;
@@ -443,4 +444,82 @@ body {
 }
 .name {
   color: #fff;
+}
+
+.firstPopup {
+  width: 400px; 
+  height: 500px;
+  background: #fff; 
+  border-radius: 6px; 
+  position: absolute;
+  top:40%;
+  left: 80%;
+  transform: translate(-50%, -50%) scale(0.1); 
+  text-align: center;
+  padding: 0 30px 30px; 
+  color: #333; 
+  visibility: hidden;
+  transition: transform 0.4s, top 0.4s;
+}
+
+.firstPopup p {
+  font-size: 38px;
+  font-weight: 500;
+  margin: 30px 0 10px;
+}
+
+.firstPopup button {
+  width: 100%;
+  margin-top: 50px;
+  padding: 10px 0; 
+  background: #6fd649;
+  color: #fff;
+  border: 0;
+  outline: none;
+  font-size: 18px; 
+  border-radius: 4px;
+  cursor: pointer; 
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.secondPopup {
+  width: 400px; 
+  height: 500px;
+  background: #fff; 
+  border-radius: 6px; 
+  position: absolute;
+  top:40%;
+  left: 80%;
+  transform: translate(-50%, -50%) scale(0.1); 
+  text-align: center;
+  padding: 0 30px 30px; 
+  color: #333; 
+  visibility: hidden;
+  transition: transform 0.4s, top 0.4s;
+}
+
+.secondPopup p {
+  font-size: 38px;
+  font-weight: 500;
+  margin: 30px 0 10px;
+}
+
+.secondPopup button {
+  width: 100%;
+  margin-top: 50px;
+  padding: 10px 0; 
+  background: #6fd649;
+  color: #fff;
+  border: 0;
+  outline: none;
+  font-size: 18px; 
+  border-radius: 4px;
+  cursor: pointer; 
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.open-popup {
+  visibility: visible;
+  top: 50%; 
+  transform: translate(-50%, -50%) scale(1);
 }

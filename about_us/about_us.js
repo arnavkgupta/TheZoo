@@ -37,3 +37,14 @@ resultsButton.addEventListener("click", function() {
   // Navigate to the desired page
   window.location.href = "../newGuide/newGuide.html";
 });
+
+
+function openPopup() {
+  document.getElementById("about").textContent = "Pranav Vasan";
+}
+
+function closePopup() {
+  document.getElementById("about").textContent = "About Us";
+
+}
+
