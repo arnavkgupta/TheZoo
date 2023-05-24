@@ -37,6 +37,46 @@ resultsButton.addEventListener("click", function() {
   window.location.href = "../newGuide/newGuide.html";
 });
 
+<<<<<<< HEAD
+=======
+// Function to filter the items
+function filterItems() {
+  // Get the value entered in the input
+  const filterValue = filterInput.value.toLowerCase();
+
+  // Get the selected checkboxes
+  const selectedCheckboxes = Array.from(checkboxes)
+    .filter(checkbox => checkbox.checked)
+    .map(checkbox => checkbox.value.toLowerCase());
+
+  // Get the items
+  const items = document.querySelectorAll('.item');
+
+  // Loop through each item
+  items.forEach(item => {
+    const category = item.getAttribute('data-category').toLowerCase();
+
+    // Check if the item matches the filter value and selected checkboxes
+    const matchFilter = filterValue === '' || item.innerText.toLowerCase().includes(filterValue);
+    const matchCategory = selectedCheckboxes.length === 0 || selectedCheckboxes.includes(category);
+
+    // Show or hide the item based on filter and checkbox matches
+    if (matchFilter && matchCategory) {
+      item.style.display = 'flex'; // Show the item
+      if(item.innerText.toLowerCase().includes(filterValue) && selectedCheckboxes.includes(category)) {
+        item.style.display = 'flex'; 
+        item.style.flexDirection = 'column'; 
+        item.style.flexWrap = 'wrap';
+        
+      }
+      
+    } else {
+      item.style.display = 'none'; // Hide the item
+    }
+  });
+}
+
+>>>>>>> 01ae1aec4b3c21a43c46403113f55d5035e63278
 // Function to flip the card
 function flipCard(index) {
   const card = document.getElementsByClassName('item')[index];
