@@ -1,12 +1,26 @@
 * {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 body {
   font-size: 14px;
   overflow-x: hidden;
 }
 
-
+.v791_10 {
+  width: 100%;
+  height: 8700px;
+  background: linear-gradient(rgba(124,174,75,0.11999999731779099), rgba(124,174,75,0.5));
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  overflow: hidden;
+}
 .v791_11 {
   width: 100%;
   height: 100%;
@@ -570,15 +584,14 @@ body {
 .v791_24516 {
   width: 325px;
   height: 318px;
-  background: url("../images/v791_24516.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 1721px;
-  left: 594px;
-  overflow: hidden;
+  top: 2118px;
+  left: 184px;
+  overflow: visible;
 }
 .v791_24517 {
   width: 325px;
@@ -857,15 +870,14 @@ body {
 .v791_24523 {
   width: 325px;
   height: 318px;
-  background: url("../images/v791_24523.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 1719px;
-  left: 1004px;
-  overflow: hidden;
+  top: 2118px;
+  left: 594px;
+  overflow: visible;
 }
 .v791_24524 {
   width: 325px;
@@ -1113,14 +1125,14 @@ body {
 .v791_220 {
   width: 325px;
   height: 318px;
-  background: url("../images/v791_220.png");
+  background: url("../images/v791_24516.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 0px;
-  left: 820px;
+  top: 1721px;
+  left: 594px;
   overflow: hidden;
 }
 .v791_70 {
@@ -1659,6 +1671,16 @@ select:focus {
   transform: rotateY(180deg);
 }
 
+/* text on the white background */
+.testing {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #000;
+  display: inline-block;
+  margin-top: 50%;
+  transform: translateY(-50%);
+}
+
 /* card content */
 .card-content {
   display: flex;
@@ -1681,7 +1703,7 @@ select:focus {
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 2118px;
+  top: 2515px;
   left: 184px;
   overflow: visible;
 }
@@ -1853,7 +1875,7 @@ select:focus {
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 2118px;
+  top: 2515px;
   left: 594px;
   overflow: visible;
 }
@@ -1866,7 +1888,7 @@ select:focus {
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 2118px;
+  top: 2515px;
   left: 1004px;
   overflow: visible;
 }
@@ -1879,7 +1901,7 @@ select:focus {
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 2515px;
+  top: 2912px;
   left: 184px;
   overflow: visible;
 }
@@ -1892,7 +1914,7 @@ select:focus {
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 2515px;
+  top: 2912px;
   left: 594px;
   overflow: visible;
 }
@@ -1905,7 +1927,7 @@ select:focus {
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 2515px;
+  top: 2912px;
   left: 1004px;
   overflow: visible;
 }
@@ -1918,7 +1940,7 @@ select:focus {
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 2912px;
+  top: 3310px;
   left: 184px;
   overflow: visible;
 }
@@ -1931,90 +1953,25 @@ select:focus {
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 2912px;
+  top: 3310px;
   left: 594px;
   overflow: visible;
   }
   
   .v11 {
-  width: 325px;
-  height: 318px;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 2912px;
-  left: 1004px;
-  overflow: visible;
+    width: 325px;
+    height: 318px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 3310px;
+    left: 1004px;
+    overflow: visible;
   }
   
   .v12 {
-  width: 325px;
-  height: 318px;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 3310px;
-  left: 184px;
-  overflow: visible;
-  }
-  
-  .v13 {
-  width: 325px;
-  height: 318px;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 3310px;
-  left: 594px;
-  overflow: visible;
-  }
-  
-  .v14 {
-  width: 325px;
-  height: 318px;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 3310px;
-  left: 1004px;
-  overflow: visible;
-  }
-  
-  .v15 {
-  width: 325px;
-  height: 318px;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 3707px;
-  left: 184px;
-  overflow: visible;
-  }
-  
-  .v16 {
-  width: 325px;
-  height: 318px;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 3707px;
-  left: 594px;
-  overflow: visible;
-  }
-
-  .v17 {
     width: 325px;
     height: 318px;
     background-repeat: no-repeat;
@@ -2023,24 +1980,11 @@ select:focus {
     opacity: 1;
     position: absolute;
     top: 3707px;
-    left: 1004px;
-    overflow: visible;
-    }
-    
-    .v18 {
-    width: 325px;
-    height: 318px;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    opacity: 1;
-    position: absolute;
-    top: 4103px;
     left: 184px;
     overflow: visible;
-    }
-    
-    .v19 {
+  }
+  
+  .v13 {
     width: 325px;
     height: 318px;
     background-repeat: no-repeat;
@@ -2051,9 +1995,61 @@ select:focus {
     top: 4103px;
     left: 594px;
     overflow: visible;
-    }
+  }
+  
+  .v14 {
+    width: 325px;
+    height: 318px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 4103px;
+    left: 1004px;
+    overflow: visible;
+  }
+  
+  .v15 {
+    width: 325px;
+    height: 318px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 4103px;
+    left: 184px;
+    overflow: visible;
+  }
+  
+  .v16 {
+    width: 325px;
+    height: 318px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 4499px;
+    left: 184px;
+    overflow: visible;
+  }
 
-    .v20 {
+  .v17 {
+    width: 325px;
+    height: 318px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 4895px;
+    left: 184px;
+    overflow: visible;
+    }
+    
+    .v18 {
       width: 325px;
       height: 318px;
       background-repeat: no-repeat;
@@ -2061,9 +2057,35 @@ select:focus {
       background-size: cover;
       opacity: 1;
       position: absolute;
-      top: 4103px;
-      left: 1004px;
+      top: 4895px;
+      left: 594px;
       overflow: visible;
+    }
+    
+    .v19 {
+      width: 325px;
+        height: 318px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        opacity: 1;
+        position: absolute;
+        top: 4895px;
+        left: 1004px;
+        overflow: visible;
+    }
+
+    .v20 {
+      width: 325px;
+        height: 318px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        opacity: 1;
+        position: absolute;
+        top: 5291px;
+        left: 184px;
+        overflow: visible;
       }
 
       .v21 {
@@ -2074,8 +2096,8 @@ select:focus {
         background-size: cover;
         opacity: 1;
         position: absolute;
-        top: 4499px;
-        left: 184px;
+        top: 5291px;
+        left: 594px;
         overflow: visible;
       }
       
@@ -2087,8 +2109,8 @@ select:focus {
         background-size: cover;
         opacity: 1;
         position: absolute;
-        top: 4499px;
-        left: 594px;
+        top: 5291px;
+        left: 1004px;
         overflow: visible;
       }
       
@@ -2100,8 +2122,8 @@ select:focus {
         background-size: cover;
         opacity: 1;
         position: absolute;
-        top: 4499px;
-        left: 1004px;
+        top: 5687px;
+        left: 184px;
         overflow: visible;
       }
       
@@ -2113,8 +2135,8 @@ select:focus {
         background-size: cover;
         opacity: 1;
         position: absolute;
-        top: 4895px;
-        left: 184px;
+        top: 5687px;
+        left: 594px;
         overflow: visible;
       }
       
@@ -2126,8 +2148,8 @@ select:focus {
         background-size: cover;
         opacity: 1;
         position: absolute;
-        top: 4895px;
-        left: 594px;
+        top: 5687px;
+        left: 1004px;
         overflow: visible;
       }
       
@@ -2139,61 +2161,61 @@ select:focus {
         background-size: cover;
         opacity: 1;
         position: absolute;
-        top: 4895px;
-        left: 1004px;
+        top: 6083px;
+        left: 184px;
         overflow: visible;
       }
       
       .v27 {
         width: 325px;
-        height: 318px;
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-size: cover;
-        opacity: 1;
-        position: absolute;
-        top: 5291px;
-        left: 184px;
-        overflow: visible;
+          height: 318px;
+          background-repeat: no-repeat;
+          background-position: center center;
+          background-size: cover;
+          opacity: 1;
+          position: absolute;
+          top: 6479px;
+          left: 184px;
+          overflow: visible;
       }
       
       .v28 {
         width: 325px;
-        height: 318px;
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-size: cover;
-        opacity: 1;
-        position: absolute;
-        top: 5291px;
-        left: 594px;
-        overflow: visible;
+          height: 318px;
+          background-repeat: no-repeat;
+          background-position: center center;
+          background-size: cover;
+          opacity: 1;
+          position: absolute;
+          top: 6479px;
+          left: 594px;
+          overflow: visible;
       }
       
       .v29 {
         width: 325px;
-        height: 318px;
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-size: cover;
-        opacity: 1;
-        position: absolute;
-        top: 5291px;
-        left: 1004px;
-        overflow: visible;
+          height: 318px;
+          background-repeat: no-repeat;
+          background-position: center center;
+          background-size: cover;
+          opacity: 1;
+          position: absolute;
+          top: 6479px;
+          left: 1004px;
+          overflow: visible;
       }
 
       .v30 {
         width: 325px;
-        height: 318px;
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-size: cover;
-        opacity: 1;
-        position: absolute;
-        top: 5687px;
-        left: 184px;
-        overflow: visible;
+          height: 318px;
+          background-repeat: no-repeat;
+          background-position: center center;
+          background-size: cover;
+          opacity: 1;
+          position: absolute;
+          top: 6875px;
+          left: 184px;
+          overflow: visible;
         }
         
         .v31 {
@@ -2204,8 +2226,8 @@ select:focus {
         background-size: cover;
         opacity: 1;
         position: absolute;
-        top: 5687px;
-        left: 594px;
+        top: 7271px;
+        left: 184px;
         overflow: visible;
         }
         
@@ -2217,8 +2239,8 @@ select:focus {
         background-size: cover;
         opacity: 1;
         position: absolute;
-        top: 5687px;
-        left: 1004px;
+        top: 7271px;
+        left: 594px;
         overflow: visible;
         }
         
@@ -2230,8 +2252,8 @@ select:focus {
         background-size: cover;
         opacity: 1;
         position: absolute;
-        top: 6083px;
-        left: 184px;
+        top: 7271px;
+        left: 1004px;
         overflow: visible;
         }
         
@@ -2243,8 +2265,8 @@ select:focus {
         background-size: cover;
         opacity: 1;
         position: absolute;
-        top: 6083px;
-        left: 594px;
+        top: 7667px;
+        left: 184px;
         overflow: visible;
         }
         
@@ -2256,8 +2278,8 @@ select:focus {
         background-size: cover;
         opacity: 1;
         position: absolute;
-        top: 6083px;
-        left: 1004px;
+        top: 8063px;
+        left: 184px;
         overflow: visible;
         }
 
@@ -2269,8 +2291,8 @@ select:focus {
           background-size: cover;
           opacity: 1;
           position: absolute;
-          top: 6479px;
-          left: 184px;
+          top: 8063px;
+          left: 594px;
           overflow: visible;
           }
           
@@ -2282,8 +2304,8 @@ select:focus {
           background-size: cover;
           opacity: 1;
           position: absolute;
-          top: 6479px;
-          left: 594px;
+          top: 8063px;
+          left: 1004px;
           overflow: visible;
           }
           
@@ -2418,58 +2440,492 @@ select:focus {
           }
           
 
-          .v791_10 {
-            width: 100%;
-            height: 7500px;
-            background: linear-gradient(rgba(124, 174, 75, 0.12), rgba(124, 174, 75, 0.5));
-            opacity: 1;
-            position: relative;
-            top: 0;
-            left: 0;
-            border-radius: 30px;
-            overflow: hidden;
-            display: flex;
-            justify-content: center;
-            align-items: flex-start;
-            padding-top: 50px; /* Adjust the padding as needed */
-          }
-          
-          #CardContainer {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr); /* Display three columns */
-            gap: 20px;
-            justify-items: flex-start;
-            align-items: flex-start;
-            margin: -10px;
-            position: relative;
-            width: 100%;
-            max-width: 1200px; /* Adjust the max-width as needed */
-            padding: 0 20px; /* Adjust the padding as needed */
-            box-sizing: border-box;
-            top: 500px;
-          }
-          
-          
-          .card-container {
-            width: 325px;
-            height: 318px;
-            background-repeat: no-repeat;
-            background-position: center center;
-            background-size: cover;
-            opacity: 1;
-            overflow: visible;
-            margin: 40px;
-            top: 450px;
-            left: -150px;
-            position: relative;
-          }
+      
 
-          .card-container-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns as needed */
-            grid-gap: 20px; /* Adjust the gap between cards as needed */
-            margin-top: 20px; 
-          }
-          
-          
-          
+/* Show card styles */
+.item[style="display:"] {
+  display: flex;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Add media query for responsive layout */
+@media screen and (max-width: 768px) {
+  .item {
+    width: calc(33.33% - 20px);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .item {
+    width: calc(50% - 20px);
+  }
+}
+
+.art {
+  width: 400px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  font-family: Rubik;
+  font-weight: SemiBold;
+  font-size: 25px;
+  opacity: 1;
+  text-align: left;
+  top: 500px;
+  left: 184px;
+  overflow: visible;
+}
+
+.running {
+  width: 400px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  font-family: Rubik;
+  font-weight: SemiBold;
+  font-size: 25px;
+  opacity: 1;
+  text-align: left;
+  top: 1293px;
+  left: 184px;
+  overflow: visible;
+}
+
+.lifting {
+  width: 400px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  font-family: Rubik;
+  font-weight: SemiBold;
+  font-size: 25px;
+  opacity: 1;
+  text-align: left;
+  top: 2083px;
+  left: 184px;
+  overflow: visible;
+}
+
+.reading {
+  width: 400px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  font-family: Rubik;
+  font-weight: SemiBold;
+  font-size: 25px;
+  opacity: 1;
+  text-align: left;
+  top: 2480px;
+  left: 184px;
+  overflow: visible;
+}
+
+.music {
+  width: 100%;
+  height: 100%;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  font-family: Rubik;
+  font-weight: SemiBold;
+  font-size: 25px;
+  opacity: 1;
+  text-align: left;
+  top: 2879px;
+  left: 184px;
+  overflow: visible;
+}
+
+.makeup {
+  width: 400px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  font-family: Rubik;
+  font-weight: SemiBold;
+  font-size: 25px;
+  opacity: 1;
+  text-align: left;
+  top: 3275px;
+  left: 184px;
+  overflow: visible;
+}
+
+.fashion {
+  width: 400px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  font-family: Rubik;
+  font-weight: SemiBold;
+  font-size: 25px;
+  opacity: 1;
+  text-align: left;
+  top: 4068px;
+  left: 184px;
+  overflow: visible;
+}
+
+.skiing {
+  width: 400px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  font-family: Rubik;
+  font-weight: SemiBold;
+  font-size: 25px;
+  opacity: 1;
+  text-align: left;
+  top: 4860px;
+  left: 184px;
+  overflow: visible;
+}
+
+.food {
+  width: 400px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  font-family: Rubik;
+  font-weight: SemiBold;
+  font-size: 25px;
+  opacity: 1;
+  text-align: left;
+  top: 5256px;
+  left: 184px;
+  overflow: visible;
+}
+
+.hiking {
+  width: 400px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  font-family: Rubik;
+  font-weight: SemiBold;
+  font-size: 25px;
+  opacity: 1;
+  text-align: left;
+  top: 6444px;
+  left: 184px;
+  overflow: visible;
+}
+
+.pa {
+  width: 400px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  font-family: Rubik;
+  font-weight: SemiBold;
+  font-size: 25px;
+  opacity: 1;
+  text-align: left;
+  top: 7236px;
+  left: 184px;
+  overflow: visible;
+}
+
+.sports {
+  width: 400px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  font-family: Rubik;
+  font-weight: SemiBold;
+  font-size: 25px;
+  opacity: 1;
+  text-align: left;
+  top: 8028px;
+  left: 184px;
+  overflow: visible;
+}
+
+.buttons{
+  width: 1500px;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 400px;
+  left: 50px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  
+}
+
+.artButton {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  margin-right: 20px;
+}
+
+.artButton:hover {
+  background-color: #45a049;
+}
+
+.artButton:focus {
+  outline: none;
+}
+
+.runningButton {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  margin-right: 20px;
+}
+
+.runningButton:hover {
+  background-color: #45a049;
+}
+
+.runningButton:focus {
+  outline: none;
+}
+
+.liftingButton {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  margin-right: 20px;
+}
+
+.liftingButton:hover {
+  background-color: #45a049;
+}
+
+.liftingButton:focus {
+  outline: none;
+}
+
+.readingButton {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  margin-right: 20px;
+}
+
+.readingButton:hover {
+  background-color: #45a049;
+}
+
+.readingButton:focus {
+  outline: none;
+}
+
+.musicButton {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  margin-right: 20px;
+}
+
+.musicButton:hover {
+  background-color: #45a049;
+}
+
+.musicButton:focus {
+  outline: none;
+}
+
+.makeupButton {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  margin-right: 20px;
+}
+
+.makeupButton:hover {
+  background-color: #45a049;
+}
+
+.makeupButton:focus {
+  outline: none;
+}
+
+.fashionButton {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  margin-right: 20px;
+}
+
+.fashionButton:hover {
+  background-color: #45a049;
+}
+
+.fashionButton:focus {
+  outline: none;
+}
+
+.skiingButton {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  margin-right: 20px;
+}
+
+.skiingButton:hover {
+  background-color: #45a049;
+}
+
+.skiingButton:focus {
+  outline: none;
+}
+
+.foodButton {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  margin-right: 20px;
+}
+
+.foodButton:hover {
+  background-color: #45a049;
+}
+
+.foodButton:focus {
+  outline: none;
+}
+
+.hikingButton {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  margin-right: 20px;
+}
+
+.hikingButton:hover {
+  background-color: #45a049;
+}
+
+.hikingButton:focus {
+  outline: none;
+}
+
+.paButton {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  margin-right: 20px;
+}
+
+.paButton:hover {
+  background-color: #45a049;
+}
+
+.paButton:focus {
+  outline: none;
+}
+
+.sportsButton {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  margin-right: 20px;
+}
+
+.sportsButton:hover {
+  background-color: #45a049;
+}
+
+.sportsButton:focus {
+  outline: none;
+}
+
+
+   
