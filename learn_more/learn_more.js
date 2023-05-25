@@ -6,7 +6,7 @@ var learnMoreButton = document.getElementById("learnMore");
 // Add click event listener to the button
 learnMoreButton.addEventListener("click", function() {
   // Navigate to the desired page
-  window.location.href = "../learn_more/learn_more.html";
+  window.location.href = "../newGuide/newGuide.html";
 });
 
 

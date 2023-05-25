@@ -4,7 +4,7 @@ var learnMoreButton = document.getElementById("learnMore");
 // Add click event listener to the button
 learnMoreButton.addEventListener("click", function() {
   // Navigate to the desired page
-  window.location.href = "../learn_more/learn_more.html";
+  window.location.href = "../newGuide/newGuide.html";
 });
 
 
@@ -35,19 +35,54 @@ var resultsButton = document.getElementById("resultsButton");
 // Add click event listener to the button
 resultsButton.addEventListener("click", function() {
   // Navigate to the desired page
-  window.location.href = "../newGuide/newGuide.html";
+  window.location.href = "../learn_more/learn_more.html";
 });
 
 var oldText = document.getElementById("blurb").innerHTML; 
 
 function openPopup() {
   document.getElementById("about").textContent = "Pranav Vasan";
-  document.getElementById("blurb").textContent = "Hi";
+  document.getElementById("who").textContent = "Student at the University of Washington studying Informatics";
+  document.getElementById("whoBlurb").textContent = "Loves to dance";
+  document.getElementById("video").style.visibility = "hidden"; 
+
+  document.getElementById("who").style.fontSize = '20px';
+
+
+}
+
+function openPopupTwo() {
+  document.getElementById("about").textContent = "Rhea Guliani";
+  document.getElementById("who").textContent = "Student at the University of Washington studying Informatics";
+  document.getElementById("whoBlurb").textContent = "Loves to dance";
+  document.getElementById("video").style.visibility = "hidden"; 
+
+  document.getElementById("who").style.fontSize = '20px';
+}
+
+function openPopupThree() {
+  document.getElementById("about").textContent = "Raveena Rao";
+  document.getElementById("who").textContent = "Student at the University of Washington studying Informatics";
+  document.getElementById("whoBlurb").textContent = "Loves to dance";
+  document.getElementById("video").style.visibility = "hidden"; 
+
+  document.getElementById("who");
+}
+
+function openPopupFour() {
+  document.getElementById("about").textContent = "Arnav Gupta";
+  document.getElementById("who").textContent = "Student at the University of Washington studying Informatics";
+  document.getElementById("whoBlurb").textContent = "Loves to dance";
+  document.getElementById("video").style.visibility = "hidden"; 
+
+  document.getElementById("who").style.fontSize = '20px';
 }
 
 function closePopup() {
   document.getElementById("about").textContent = "About Us";
   document.getElementById("blurb").innerHTML = oldText;
+  document.getElementById("video").style.visibility = "visible"; 
+
 
 
 
