@@ -37,5 +37,5 @@ var resultsButton = document.getElementById("resultsButton");
 // Add click event listener to the button
 resultsButton.addEventListener("click", function() {
   // Navigate to the desired page
-  window.location.href = "../newGuide/newGuide.html";
+  window.location.href = "../learn_more/learn_more.html";
 });

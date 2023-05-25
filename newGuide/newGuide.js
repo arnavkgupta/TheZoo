@@ -109,3 +109,15 @@ var sportsButton = document.getElementById("sportsButton");
 sportsButton.addEventListener("click", function() {
   window.scrollTo({top: 8018});
 });
+
+
+// Get all elements with the ID "arrowButton"
+var arrowButtons = document.querySelectorAll("#arrowButton");
+
+// Attach the click event listener to each arrowButton
+arrowButtons.forEach(function(arrow) {
+  arrow.addEventListener("click", function() {
+    // Scroll to the top of the page
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+});

@@ -1,5 +1,4 @@
 * {
-  box-sizing: border-box;
   scroll-behavior: smooth;
 }
 body {
@@ -89,13 +88,10 @@ body {
 }
 .v791_22 {
   width: 282px;
-  color: rgba(0,0,0,1);
   position: absolute;
   top: 199px;
-  left: 184px;
-  font-family: Rubik;
-  font-weight: Bold;
-  font-size: 40px;
+  left: 110px;
+  text-align: justify;
   opacity: 1;
   text-align: left;
 }
@@ -797,11 +793,6 @@ body {
   position: absolute;
   top: 0px;
   left: 0px;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-  box-shadow: 0px 4px 12px rgba(0.47130101919174194, 0.5, 0.4437499940395355, 0.10000000149011612);
   overflow: hidden;
 }
 
@@ -1383,7 +1374,7 @@ body {
 }
 .v791_264 {
   width: 100%;
-  height: 111px;
+  height: 110px;
   background: url("../images/v791_264.png");
   background-repeat: no-repeat;
   background-position: center center;
@@ -1396,7 +1387,7 @@ body {
 }
 .v791_263 {
   width: 95%;
-  height: 111px;
+  height: 70px;
   background: rgba(124,174,75,0.05000000074505806);
   opacity: 1;
   position: absolute;
@@ -1445,11 +1436,11 @@ body {
   text-align: left;
 }
 .v791_417 {
-  width: 74px;
+  width: 63px;
   color: rgba(0,0,0,1);
   position: absolute;
   top: 63px;
-  left: 1228px;
+  left: 1215px;
   font-family: Rubik;
   font-weight: Medium;
   font-size: 24px;
@@ -1461,7 +1452,7 @@ body {
   color: rgba(0,0,0,1);
   position: absolute;
   top: 63px;
-  left: 1332px;
+  left: 1365px;
   font-family: Rubik;
   font-weight: Medium;
   font-size: 24px;
@@ -1639,6 +1630,11 @@ select:focus {
   font-weight: bold;
   cursor: pointer;
   border: none;
+}
+
+#learnMore:hover {
+  text-decoration:underline;
+  color: rgba(109,120,99,1);
 }
 
 /* flip card container */
@@ -2641,7 +2637,7 @@ select:focus {
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 400px;
+  top: 380px;
   left: 50px;
   border-top-left-radius: 40px;
   border-top-right-radius: 40px;
@@ -2652,7 +2648,7 @@ select:focus {
 
 .artButton {
   padding: 10px 20px;
-  background-color: #4CAF50;
+  background-color: rgb(31, 109, 31);
   color: white;
   border: none;
   border-radius: 4px;
@@ -2663,6 +2659,7 @@ select:focus {
   border-bottom-left-radius: 40px;
   border-bottom-right-radius: 40px;
   margin-right: 20px;
+  box-shadow: 5px 5px 5px rgb(0, 56, 0);
 }
 
 .artButton:hover {
@@ -2675,7 +2672,7 @@ select:focus {
 
 .runningButton {
   padding: 10px 20px;
-  background-color: #4CAF50;
+  background-color: rgb(31, 109, 31);
   color: white;
   border: none;
   border-radius: 4px;
@@ -2686,6 +2683,7 @@ select:focus {
   border-bottom-left-radius: 40px;
   border-bottom-right-radius: 40px;
   margin-right: 20px;
+  box-shadow: 5px 5px 5px rgb(0, 56, 0);
 }
 
 .runningButton:hover {
@@ -2698,7 +2696,7 @@ select:focus {
 
 .liftingButton {
   padding: 10px 20px;
-  background-color: #4CAF50;
+  background-color: rgb(31, 109, 31);
   color: white;
   border: none;
   border-radius: 4px;
@@ -2709,6 +2707,7 @@ select:focus {
   border-bottom-left-radius: 40px;
   border-bottom-right-radius: 40px;
   margin-right: 20px;
+  box-shadow: 5px 5px 5px rgb(0, 56, 0);
 }
 
 .liftingButton:hover {
@@ -2721,7 +2720,7 @@ select:focus {
 
 .readingButton {
   padding: 10px 20px;
-  background-color: #4CAF50;
+  background-color: rgb(31, 109, 31);
   color: white;
   border: none;
   border-radius: 4px;
@@ -2732,6 +2731,7 @@ select:focus {
   border-bottom-left-radius: 40px;
   border-bottom-right-radius: 40px;
   margin-right: 20px;
+  box-shadow: 5px 5px 5px rgb(0, 56, 0);
 }
 
 .readingButton:hover {
@@ -2744,7 +2744,7 @@ select:focus {
 
 .musicButton {
   padding: 10px 20px;
-  background-color: #4CAF50;
+  background-color: rgb(31, 109, 31);
   color: white;
   border: none;
   border-radius: 4px;
@@ -2755,6 +2755,7 @@ select:focus {
   border-bottom-left-radius: 40px;
   border-bottom-right-radius: 40px;
   margin-right: 20px;
+  box-shadow: 5px 5px 5px rgb(0, 56, 0);
 }
 
 .musicButton:hover {
@@ -2767,7 +2768,7 @@ select:focus {
 
 .makeupButton {
   padding: 10px 20px;
-  background-color: #4CAF50;
+  background-color: rgb(31, 109, 31);
   color: white;
   border: none;
   border-radius: 4px;
@@ -2778,6 +2779,7 @@ select:focus {
   border-bottom-left-radius: 40px;
   border-bottom-right-radius: 40px;
   margin-right: 20px;
+  box-shadow: 5px 5px 5px rgb(0, 56, 0);
 }
 
 .makeupButton:hover {
@@ -2790,7 +2792,7 @@ select:focus {
 
 .fashionButton {
   padding: 10px 20px;
-  background-color: #4CAF50;
+  background-color: rgb(31, 109, 31);
   color: white;
   border: none;
   border-radius: 4px;
@@ -2801,6 +2803,7 @@ select:focus {
   border-bottom-left-radius: 40px;
   border-bottom-right-radius: 40px;
   margin-right: 20px;
+  box-shadow: 5px 5px 5px rgb(0, 56, 0);
 }
 
 .fashionButton:hover {
@@ -2813,7 +2816,7 @@ select:focus {
 
 .skiingButton {
   padding: 10px 20px;
-  background-color: #4CAF50;
+  background-color: rgb(31, 109, 31);
   color: white;
   border: none;
   border-radius: 4px;
@@ -2824,6 +2827,7 @@ select:focus {
   border-bottom-left-radius: 40px;
   border-bottom-right-radius: 40px;
   margin-right: 20px;
+  box-shadow: 5px 5px 5px rgb(0, 56, 0);
 }
 
 .skiingButton:hover {
@@ -2836,7 +2840,7 @@ select:focus {
 
 .foodButton {
   padding: 10px 20px;
-  background-color: #4CAF50;
+  background-color: rgb(31, 109, 31);
   color: white;
   border: none;
   border-radius: 4px;
@@ -2847,6 +2851,7 @@ select:focus {
   border-bottom-left-radius: 40px;
   border-bottom-right-radius: 40px;
   margin-right: 20px;
+  box-shadow: 5px 5px 5px rgb(0, 56, 0);
 }
 
 .foodButton:hover {
@@ -2859,7 +2864,7 @@ select:focus {
 
 .hikingButton {
   padding: 10px 20px;
-  background-color: #4CAF50;
+  background-color: rgb(31, 109, 31);
   color: white;
   border: none;
   border-radius: 4px;
@@ -2870,6 +2875,7 @@ select:focus {
   border-bottom-left-radius: 40px;
   border-bottom-right-radius: 40px;
   margin-right: 20px;
+  box-shadow: 5px 5px 5px rgb(0, 56, 0);
 }
 
 .hikingButton:hover {
@@ -2882,7 +2888,7 @@ select:focus {
 
 .paButton {
   padding: 10px 20px;
-  background-color: #4CAF50;
+  background-color: rgb(31, 109, 31);
   color: white;
   border: none;
   border-radius: 4px;
@@ -2893,6 +2899,7 @@ select:focus {
   border-bottom-left-radius: 40px;
   border-bottom-right-radius: 40px;
   margin-right: 20px;
+  box-shadow: 5px 5px 5px rgb(0, 56, 0);
 }
 
 .paButton:hover {
@@ -2905,7 +2912,7 @@ select:focus {
 
 .sportsButton {
   padding: 10px 20px;
-  background-color: #4CAF50;
+  background-color: rgb(31, 109, 31);
   color: white;
   border: none;
   border-radius: 4px;
@@ -2916,6 +2923,7 @@ select:focus {
   border-bottom-left-radius: 40px;
   border-bottom-right-radius: 40px;
   margin-right: 20px;
+  box-shadow: 5px 5px 5px rgb(0, 56, 0);
 }
 
 .sportsButton:hover {
@@ -2924,6 +2932,150 @@ select:focus {
 
 .sportsButton:focus {
   outline: none;
+}
+
+
+.runningArrow {
+  width: 26px;
+  height: 26px;
+  opacity: 1;
+  position: absolute;
+  top: 1953px;
+  left: 1350px;
+  background-color:  transparent;
+}
+
+.liftingArrow {
+  width: 26px;
+  height: 26px;
+  opacity: 1;
+  position: absolute;
+  top: 2350px;
+  left: 1350px;
+  background-color:  transparent;
+}
+
+.readingArrow {
+  width: 26px;
+  height: 26px;
+  opacity: 1;
+  position: absolute;
+  top: 2747px;
+  left: 1350px;
+  background-color:  transparent;
+}
+
+.musicArrow {
+  width: 26px;
+  height: 26px;
+  opacity: 1;
+  position: absolute;
+  top: 3150px;
+  left: 1350px;
+  background-color:  transparent;
+}
+
+.makeupArrow {
+  width: 26px;
+  height: 26px;
+  opacity: 1;
+  position: absolute;
+  top: 3939px;
+  left: 1350px;
+  background-color:  transparent;
+}
+
+.fashionArrow {
+  width: 26px;
+  height: 26px;
+  opacity: 1;
+  position: absolute;
+  top: 4731px;
+  left: 1350px;
+  background-color:  transparent;
+}
+
+.skiingArrow {
+  width: 26px;
+  height: 26px;
+  opacity: 1;
+  position: absolute;
+  top: 5127px;
+  left: 1350px;
+  background-color:  transparent;
+}
+
+.foodArrow {
+  width: 26px;
+  height: 26px;
+  opacity: 1;
+  position: absolute;
+  top: 6315px;
+  left: 1350px;
+  background-color:  transparent;
+}
+
+.hikingArrow {
+  width: 26px;
+  height: 26px;
+  opacity: 1;
+  position: absolute;
+  top: 7107px;
+  left: 1350px;
+  background-color:  transparent;
+}
+
+.paArrow {
+  width: 26px;
+  height: 26px;
+  opacity: 1;
+  position: absolute;
+  top: 7899px;
+  left: 1350px;
+  background-color:  transparent;
+}
+
+.sportsArrow {
+  width: 26px;
+  height: 26px;
+  opacity: 1;
+  position: absolute;
+  top: 8295px;
+  left: 1350px;
+  background-color:  transparent;
+}
+
+
+
+ 
+
+.arrow {
+  transform-origin: 50% 50%;
+  -webkit-animation: uparrow 0.6s infinite alternate ease-in-out;
+  transform: rotate(180deg)
+}
+
+@-webkit-keyframes uparrow {
+  0% { -webkit-transform: translateY(0) rotate(180deg); opacity: 0.4; }
+  100% { -webkit-transform: translateY(-0.4em) rotate(180deg); opacity: 0.9; }
+}
+
+#arrowButton {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.border {
+  border: 5px solid #000;
+  padding: 00px;
+  box-shadow: 5px 5px 5px rgb(0, 56, 0);
+}
+
+.habitat {
+  width: 100%;
+  margin-left: 120px;
+  margin-bottom: 50px;
 }
 
 
