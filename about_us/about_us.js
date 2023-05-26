@@ -43,7 +43,7 @@ var oldText = document.getElementById("blurb").innerHTML;
 function openPopup() {
   document.getElementById("about").textContent = "Pranav Vasan";
   document.getElementById("who").textContent = "Student at the University of Washington studying Informatics";
-  document.getElementById("whoBlurb").textContent = "Loves to dance";
+  document.getElementById("whoBlurb").textContent = "Loves to dance, sing, and explore new genres of music";
   document.getElementById("video").style.visibility = "hidden"; 
 
   document.getElementById("who").style.fontSize = '20px';
@@ -54,7 +54,7 @@ function openPopup() {
 function openPopupTwo() {
   document.getElementById("about").textContent = "Rhea Guliani";
   document.getElementById("who").textContent = "Student at the University of Washington studying Informatics";
-  document.getElementById("whoBlurb").textContent = "Loves to dance";
+  document.getElementById("whoBlurb").textContent = "Loves sports, driving, and nature!";
   document.getElementById("video").style.visibility = "hidden"; 
 
   document.getElementById("who").style.fontSize = '20px';
@@ -63,7 +63,7 @@ function openPopupTwo() {
 function openPopupThree() {
   document.getElementById("about").textContent = "Raveena Rao";
   document.getElementById("who").textContent = "Student at the University of Washington studying Informatics";
-  document.getElementById("whoBlurb").textContent = "Loves to dance";
+  document.getElementById("whoBlurb").textContent = "Enjoys watching basketball, eating exotic foods, and dogs";
   document.getElementById("video").style.visibility = "hidden"; 
 
   document.getElementById("who");
@@ -72,7 +72,7 @@ function openPopupThree() {
 function openPopupFour() {
   document.getElementById("about").textContent = "Arnav Gupta";
   document.getElementById("who").textContent = "Student at the University of Washington studying Informatics";
-  document.getElementById("whoBlurb").textContent = "Loves to dance";
+  document.getElementById("whoBlurb").textContent = "Loves dancing, working out, and traveling";
   document.getElementById("video").style.visibility = "hidden"; 
 
   document.getElementById("who").style.fontSize = '20px';

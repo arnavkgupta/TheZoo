@@ -128,9 +128,9 @@ body {
 }
 
 .v98_2281 {
-  color: rgba(109,120,99,1);
+  color: rgba(61,83,39,1);
   font-family: Rubik;
-  font-weight: ExtraBold Italic;
+  font-weight: bold;
   font-size: 24px;
   opacity: 1;
   text-align: left;
@@ -230,7 +230,7 @@ body {
   overflow: hidden;
 }
 .v98_2287 {
-  color: rgba(109,120,99,1);
+  color: rgba(61,83,39,1);
   top: 300px;
   right: 127px;
   font-family: Rubik;
@@ -267,7 +267,7 @@ body {
 .v98_2290 {
   width: 178px;
   height: 178px;
-  background: url("../images/v98_2290.png");
+  background: url("../images/pranav.jpeg");
   background-size: 180px;
   opacity: 1;
   position: absolute;
@@ -284,8 +284,9 @@ body {
 .v98_2291 {
   width: 179px;
   height: 179px;
-  background: url("../images/v98_2291.png");
-  background-size: 180px;
+  background: url("../images/rhea2.png");
+  background-size: 155px;
+  background-position: center;
   opacity: 1;
   position: absolute;
   top: 439px;
@@ -325,7 +326,7 @@ body {
 .v98_2293 {
   width: 179px;
   height: 179px;
-  background: url("../images/v98_2293.png");
+  background: url("../images/arnav.jpeg");
   background-size: 180px;
   opacity: 1;
   position: absolute;
